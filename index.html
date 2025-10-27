@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Civil Engineering Exam Simulator</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
+  <style>
+    /* ===== RESET & BASE STYLES ===== */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root {
+        --primary-color: #9333ea;
+        --primary-hover: #7e22ce;
+        --secondary-color: #ede9fe;
+        --secondary-text: #6b21a8;
+        --danger-color: #dc2626;
+        --danger-hover: #b91c1c;
+        --success-color: #10b981;
+        --warning-color: #f59e0b;
+        --bg-light: #f9fafb;
+        --bg-card-light: #ffffff;
+        --text-light: #111827;
+        --text-muted-light: #6b7280;
+        --border-light: #e5e7eb;
+        --bg-dark: #030712;
+        --bg-card-dark: #111827;
+        --text-dark: #f9fafb;
+        --text-muted-dark: #9ca3af;
+        --border-dark: #374151;
+        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --radius: 0.5rem;
+    }
+    body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background-color: var(--bg-light);
+        color: var(--text-light);
+        line-height: 1.5;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 1rem;
+        overflow-x: hidden;
+    }
+    body.dark {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+    }
+    body.font-small {
+        font-size: 0.875rem;
+    }
+    body.font-large {
+        font-size: 1.125rem;
+    }
+    body.nav-step {
+        overflow-x: hidden;
+    }
+
+    /* ===== UTILITY CLASSES ===== */
+    .hidden {
+        display: none !important;
+    }
+    .screen {
+        min-height: 100vh;
+    }
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .flex {
+        display: flex;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+    .items-center {
+        align-items: center;
+    }
+    .justify-center {
+        justify-content: center;
+    }
+    .justify-between {
+        justify-content: space-between;
+    }
+    .gap-4 {
+        gap: 1rem;
+    }
+    .gap-2 {
+        gap: 0.5rem;
+    }
+    .mt-4 {
+        margin-top: 1rem;
+    }
+    .mb-4 {
+        margin-bottom: 1rem;
+    }
+    .p-4 {
+        padding: 1rem;
+    }
+    .rounded-lg {
+        border-radius: var(--radius);
+    }
+    .whitespace-pre-wrap {
+        white-space: pre-wrap;
+    }
+    .text-muted {
+        color: var(--text-muted-light);
+    }
+    .dark .text-muted {
+        color: var(--text-muted-dark);
+    }
+    .feature-badge {
+        background: var(--primary-color);
+        color: white;
+        border-radius: 9999px;
+        padding: 0.15rem 0.5rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+    }
+    .feature-badge:hover {
+        background: var(--primary-hover);
+        cursor: pointer;
+    }
+
+    /* ===== CARD COMPONENT ===== */
+    .card {
+        background: var(--bg-card-light);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .dark .card {
+        background: var(--bg-card-dark);
+    }
+
+    /* ===== BUTTON COMPONENT ===== */
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        border-radius: 9999px;
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+    .btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    .btn-primary {
+        background: var(--primary-color);
+        color: white;
+    }
+    .btn-primary:hover:not(:disabled) {
+        background: var(--primary-hover);
+    }
+    .btn-secondary {
+        background: var(--secondary-color);
+        color: var(--secondary-text);
+    }
+    .dark .btn-secondary {
+        background: var(--border-dark);
+        color: var(--text-dark);
+    }
+    .btn-secondary:hover:not(:disabled) {
+        background: #ddd6fe;
+    }
+    .dark .btn-secondary:hover:not(:disabled) {
+        background: var(--border-dark);
+    }
+    .btn-danger {
+        background: var(--danger-color);
+        color: white;
+    }
+    .btn-danger:hover:not(:disabled) {
+        background: var(--danger-hover);
+    }
+    .btn-text {
+        background: transparent;
+        color: var(--primary-color);
+    }
+    .dark .btn-text {
+        color: #c084fc;
+    }
+    .btn-text:hover:not(:disabled) {
+        background: var(--secondary-color);
+    }
+    .dark .btn-text:hover:not(:disabled) {
+        background: var(--border-dark);
+    }
+    .btn-sm {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.75rem;
+    }
+    .btn-lg {
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+    }
+    .icon {
+        width: 1rem;
+        height: 1rem;
+        stroke: currentColor;
+        fill: none;
+    }
+
+    /* ===== LOADING SCREEN ===== */
+    .loading-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .spinner {
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 4px solid #e5e7eb;
+        border-top: 4px solid var(--primary-color);
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    /* ===== MAIN MENU ===== */
+    .header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .header h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    #progress-text {
+        color: var(--text-muted-light);
+    }
+    .dark #progress-text {
+        color: var(--text-muted-dark);
+    }
+    .section-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    @media (min-width: 768px) {
+        .section-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .section-card {
+        background: var(--bg-card-light);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .dark .section-card {
+        background: var(--bg-card-dark);
+    }
+    .section-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.75rem;
+    }
+    .section-card-title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .section-card-score {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--success-color);
+    }
+    .section-card-description {
+        font-size: 0.875rem;
+        color: var(--text-muted-light);
+        margin-bottom: 1rem;
+    }
+    .dark .section-card-description {
+        color: var(--text-muted-dark);
+    }
+    .progress-container {
+        height: 0.5rem;
+        background: #e5e7eb;
+        border-radius: 9999px;
+        margin-top: 0.75rem;
+    }
+    .dark .progress-container {
+        background: var(--border-dark);
+    }
+    .progress-bar {
+        height: 100%;
+        background: var(--success-color);
+        border-radius: 9999px;
+        transition: width 0.3s ease;
+    }
+    .action-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .nav-buttons {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* ===== INSTRUCTIONS SCREEN ===== */
+    .section-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--primary-color);
+        text-align: center;
+    }
+    .dark .section-title {
+        color: #c084fc;
+    }
+    .section-subtitle {
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .instructions-box {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        background: #fef3c7;
+        border-left: 4px solid var(--warning-color);
+    }
+    .dark .instructions-box {
+        background: #374151;
+        border-left-color: #d97706;
+    }
+    .instructions-title {
+        font-weight: bold;
+    }
+    .instructions-list {
+        margin-top: 0.5rem;
+        list-style-type: disc;
+        list-style-position: inside;
+        color: var(--text-light);
+    }
+    .dark .instructions-list {
+        color: var(--text-dark);
+    }
+    .instructions-list li {
+        margin-bottom: 0.25rem;
+    }
+    .quote {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-style: italic;
+        color: var(--text-muted-light);
+    }
+    .dark .quote {
+        color: var(--text-muted-dark);
+    }
+
+    /* ===== EXAM SCREEN ===== */
+    .exam-header {
+        background: var(--bg-card-light);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    .dark .exam-header {
+        background: var(--bg-card-dark);
+    }
+    .exam-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .exam-info h1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .exam-info p {
+        font-size: 0.875rem;
+        color: var(--text-muted-light);
+    }
+    .dark .exam-info p {
+        color: var(--text-muted-dark);
+    }
+    .exam-controls {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .timer {
+        font-family: monospace;
+        font-size: 1.5rem;
+        background: #f3f4f6;
+        padding: 0.5rem 1rem;
+        border-radius: var(--radius);
+    }
+    .dark .timer {
+        background: #1f2937;
+    }
+    .exam-content {
+        flex: 1;
+        overflow-y: auto;
+        background: #f3f4f6;
+        padding: 1rem 0;
+    }
+    .dark .exam-content {
+        background: #111827;
+    }
+    .questions-container {
+        max-width: 56rem;
+        margin: 0 auto;
+    }
+    .question-card {
+        background: var(--bg-card-light);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .dark .question-card {
+        background: var(--bg-card-dark);
+    }
+    .question-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+    .question-number {
+        font-weight: bold;
+        font-size: 1.125rem;
+        color: var(--primary-color);
+    }
+    .dark .question-number {
+        color: #c084fc;
+    }
+    .question-group {
+        font-size: 0.875rem;
+        color: var(--text-muted-light);
+    }
+    .dark .question-group {
+        color: var(--text-muted-dark);
+    }
+    .question-stem {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .question-image {
+        max-width: 100%;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+    .question-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        cursor: zoom-in;
+    }
+    .choices-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    .choice-btn {
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+        background: #f3f4f6;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+        padding: 0.75rem 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+        width: 100%;
+        transition: background-color 0.1s, border-color 0.1s, box-shadow 0.1s;
+        gap: 0.5rem;
+    }
+    .dark .choice-btn {
+        background: #1f2937;
+        border-color: var(--border-dark);
+        color: var(--text-dark);
+    }
+    .choice-btn:hover {
+        border-color: var(--primary-color);
+    }
+    .choice-btn.selected {
+        background: var(--secondary-color);
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px var(--primary-color);
+        color: var(--secondary-text);
+    }
+    .dark .choice-btn.selected {
+        background: #4b5563;
+        border-color: #c084fc;
+        box-shadow: 0 0 0 2px #c084fc;
+        color: var(--text-dark);
+    }
+    .choice-letter {
+        font-weight: bold;
+        color: var(--primary-color);
+        min-width: 1.5rem;
+    }
+    .choice-btn.selected .choice-letter {
+        color: var(--secondary-text);
+    }
+    .dark .choice-btn.selected .choice-letter {
+        color: #c084fc;
+    }
+
+    /* Exam Footer - Fixed for mobile */
+    .exam-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--bg-card-light);
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        padding: 0.75rem 0;
+        z-index: 10;
+        transition: transform 0.3s ease;
+    }
+    .dark .exam-footer {
+        background: var(--bg-card-dark);
+    }
+    .exam-footer .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .exam-footer.hidden {
+        transform: translateY(100%);
+    }
+
+    /* Step Navigation Mode */
+    .nav-step .question-card:not(.active-question) {
+        display: none !important;
+    }
+    .nav-step .exam-footer #btn-jump-to-first {
+        display: none !important;
+    }
+    .nav-step .exam-footer #btn-nav-next {
+        display: inline-flex !important;
+    }
+
+    /* ===== RESULTS SCREEN ===== */
+    .results-container {
+        padding: 2rem 0;
+    }
+    .results-card {
+        background: var(--bg-card-light);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .dark .results-card {
+        background: var(--bg-card-dark);
+    }
+    .score {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0.5rem 0;
+    }
+    .score.pass {
+        color: var(--success-color);
+    }
+    .score.fail {
+        color: var(--danger-color);
+    }
+    .score-message {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .stat-item {
+        padding: 1rem;
+        border-radius: var(--radius);
+        background: #f3f4f6;
+        font-size: 0.875rem;
+    }
+    .dark .stat-item {
+        background: #1f2937;
+    }
+    .stat-value {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-top: 0.25rem;
+    }
+    .wrong-answers-section {
+        margin-top: 2rem;
+    }
+    .wrong-answer-card {
+        background: var(--bg-card-light);
+        border: 1px solid var(--danger-color);
+        border-radius: var(--radius);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+    .dark .wrong-answer-card {
+        background: var(--bg-card-dark);
+    }
+    .wrong-answer-card .question-number {
+        color: var(--danger-color);
+    }
+    .answer-comparison {
+        margin-top: 1rem;
+        padding: 1rem;
+        background: #fef2f2;
+        border-radius: var(--radius);
+        border: 1px solid #fca5a5;
+    }
+    .dark .answer-comparison {
+        background: #374151;
+        border-color: #ef4444;
+    }
+    .user-answer {
+        color: var(--danger-color);
+        font-weight: 600;
+    }
+    .correct-answer {
+        color: var(--success-color);
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    .explanation {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid var(--border-light);
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    .dark .explanation {
+        border-top-color: var(--border-dark);
+    }
+    .explanation-title {
+        font-weight: bold;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+    }
+
+    /* ===== REVIEW SCREEN ===== */
+    .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .review-header h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .review-questions-container {
+        max-width: 56rem;
+        margin: 0 auto;
+    }
+    .review-question-card {
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+        padding: 1.5rem;
+        background: var(--bg-card-light);
+        box-shadow: var(--shadow);
+    }
+    .dark .review-question-card {
+        border-color: var(--border-dark);
+        background: var(--bg-card-dark);
+    }
+    .review-question-card .question-header {
+        margin-bottom: 0.5rem;
+    }
+    .review-question-card .question-number {
+        color: #374151;
+    }
+    .dark .review-question-card .question-number {
+        color: var(--text-muted-dark);
+    }
+    .review-question-card .choices-container .choice-btn {
+        cursor: default;
+    }
+    .review-question-card .choices-container .choice-btn:hover {
+        border-color: var(--border-light);
+    }
+    .dark .review-question-card .choices-container .choice-btn:hover {
+        border-color: var(--border-dark);
+    }
+    .review-question-card .choice-btn[data-correct="true"] {
+        background: #d1fae5;
+        border-color: var(--success-color);
+        color: var(--success-color);
+        box-shadow: 0 0 0 2px var(--success-color);
+    }
+    .dark .review-question-card .choice-btn[data-correct="true"] {
+        background: #064e3b;
+        border-color: var(--success-color);
+        color: var(--success-color);
+    }
+    .review-question-card .choice-btn.selected:not([data-correct="true"]) {
+        background: #fee2e2;
+        border-color: var(--danger-color);
+        color: var(--danger-color);
+        box-shadow: 0 0 0 2px var(--danger-color);
+    }
+    .dark .review-question-card .choice-btn.selected:not([data-correct="true"]) {
+        background: #7f1d1d;
+        border-color: var(--danger-color);
+        color: var(--danger-color);
+    }
+    .review-question-card .explanation {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .review-question-card .explanation-title {
+        color: var(--success-color);
+    }
+
+    /* ===== SETTINGS SCREEN ===== */
+    .settings-group {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-light);
+    }
+    .dark .settings-group {
+        border-bottom-color: var(--border-dark);
+    }
+    .settings-group h2 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .theme-switcher button.selected,
+    .font-switcher button.selected,
+    .nav-mode-switcher button.selected {
+        background: var(--primary-color);
+        color: white;
+    }
+    .theme-switcher, .font-switcher, .nav-mode-switcher, .data-options {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    /* ===== MODAL ===== */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50;
+    }
+    .modal-content {
+        background: var(--bg-card-light);
+        border-radius: var(--radius);
+        padding: 1.5rem;
+        max-width: 90%;
+        max-height: 90%;
+        position: relative;
+    }
+    .dark .modal-content {
+        background: var(--bg-dark);
+    }
+    .modal-content img {
+        max-width: 100%;
+        max-height: 80vh;
+        display: block;
+        object-fit: contain;
+    }
+    .modal-close {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        background: rgba(255, 255, 255, 0.8);
+        border: none;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: var(--text-light);
+    }
+    .dark .modal-close {
+        background: rgba(0, 0, 0, 0.8);
+        color: var(--text-dark);
+    }
+    .modal-close:hover {
+        background: white;
+    }
+    .dark .modal-close:hover {
+        background: black;
+    }
+    .zoomed-image {
+        max-width: 100%;
+        height: auto;
+    }
+    .confirm-modal {
+        text-align: center;
+        padding: 2rem;
+        min-width: 300px;
+    }
+    .confirm-modal h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .confirm-modal p {
+        margin-bottom: 1.5rem;
+        color: var(--text-muted-light);
+    }
+    .dark .confirm-modal p {
+        color: var(--text-muted-dark);
+    }
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    /* ===== PDF CONTAINER ===== */
+    .printable-container {
+        display: none;
+        padding: 2rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #111827;
+        background: #fff;
+        min-height: 100vh;
+    }
+
+    .printable-section {
+        margin-bottom: 40px;
+    }
+
+    .printable-header {
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .printable-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .printable-subtitle {
+        font-size: 1.125rem;
+        text-align: center;
+        color: #6b7280;
+        margin-top: 0.5rem;
+    }
+
+    .printable-question {
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.375rem;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .printable-question h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .printable-stem {
+        margin: 1rem 0;
+    }
+
+    .printable-choices {
+        margin-top: 1.5rem;
+    }
+
+    .printable-choice {
+        padding: 0.75rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+        background: #f3f4f6;
+    }
+
+    .printable-figure {
+        text-align: center;
+        margin: 1.5rem 0;
+    }
+
+    .printable-figure img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.375rem;
+    }
+
+    .printable-explanation {
+        margin-top: 1.5rem;
+        padding: 1rem;
+        background: #f0f9ff;
+        border-left: 4px solid #3b82f6;
+    }
+
+    .printable-footer {
+        border-top: 1px solid #e5e7eb;
+        padding-top: 1.5rem;
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 0.875rem;
+        color: #6b7280;
+    }
+
+    /* ===== PRINT STYLES ===== */
+    @media print {
+      /* Hide non-essential elements */
+      body > *:not(.printable-container) {
+        display: none !important;
+      }
+      
+      /* Container styles for print */
+      .printable-container {
+        padding: 1.5cm;
+        font-size: 11pt;
+        line-height: 1.5;
+        color: #000;
+        background: #fff;
+        page-break-inside: avoid;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      
+      .printable-section {
+        page-break-before: always;
+      }
+      
+      .printable-question {
+        page-break-inside: avoid;
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid #e5e7eb;
+        border-radius: 0;
+      }
+      
+      .printable-question h3 {
+        font-size: 14pt;
+        margin-top: 0;
+      }
+      
+      .printable-stem {
+        margin: 15px 0;
+        font-size: 12pt;
+        line-height: 1.6;
+      }
+      
+      .printable-choices {
+        margin: 20px 0;
+      }
+      
+      .printable-choice {
+        padding: 8px 12px;
+        margin: 5px 0;
+        border: 1px solid #d1d5db;
+        border-radius: 4px;
+        background: #f9fafb;
+      }
+      
+      .printable-figure {
+        text-align: center;
+        margin: 20px 0;
+        page-break-inside: avoid;
+      }
+      
+      .printable-figure img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+      }
+      
+      .printable-explanation {
+        margin-top: 20px;
+        padding: 12px;
+        background: #f0f9ff;
+        border-left: 4px solid #3b82f6;
+      }
+      
+      .printable-header {
+        border-bottom: 1px solid #e5e7eb;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .printable-title {
+        font-size: 18pt;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .printable-subtitle {
+        font-size: 14pt;
+        color: #4b5563;
+      }
+      
+      .printable-footer {
+        border-top: 1px solid #e5e7eb;
+        padding-top: 15px;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 10pt;
+        color: #6b7280;
+      }
+      
+      /* Hide elements not needed in print */
+      .printable-container .no-print {
+        display: none !important;
+      }
+    }
+
+    /* ===== ACCESSIBILITY & MOBILE OPTIMIZATIONS ===== */
+    :focus-visible {
+        outline: 2px solid var(--primary-color);
+        outline-offset: 2px;
+    }
+
+    /* Review Screen Enhancements */
+    .review-controls {
+        margin-bottom: 1.5rem;
+    }
+    .review-controls select,
+    .review-controls input {
+        width: auto;
+        max-width: 200px;
+        padding: 0.5rem;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+    }
+
+    /* ===== NEW FEATURES ===== */
+    /* Feature 1: Progress Bar */
+    .progress-bar-container {
+        width: 100%;
+        height: 12px;
+        background: var(--border-light);
+        border-radius: 9999px;
+        margin: 1rem 0;
+        overflow: hidden;
+    }
+    .progress-bar-fill {
+        height: 100%;
+        background: var(--primary-color);
+        border-radius: 9999px;
+        width: 0%;
+        transition: width 0.3s ease;
+    }
+
+    /* Feature 2: Flagged Questions */
+    .flagged-indicator {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background: var(--warning-color);
+        border-radius: 50%;
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+    .flagged-question .question-number {
+        color: var(--warning-color);
+    }
+
+    /* Feature 3: Time Spent Indicator */
+    .time-spent {
+        font-size: 0.75rem;
+        color: var(--text-muted-light);
+        margin-top: 0.25rem;
+    }
+    .dark .time-spent {
+        color: var(--text-muted-dark);
+    }
+
+    /* Feature 4: Note-taking */
+    .note-container {
+        margin-top: 1rem;
+        padding: 0.75rem;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+    }
+    .note-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+    .note-textarea {
+        width: 100%;
+        height: 80px;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+        padding: 0.5rem;
+        resize: vertical;
+    }
+
+    /* Feature 5: Question Filter */
+    .filter-badge {
+        background: var(--primary-color);
+        color: white;
+        border-radius: 9999px;
+        padding: 0.15rem 0.5rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    /* Feature 6: Question Highlighting */
+    .highlighted {
+        background-color: #f0f9ff;
+        border-left: 4px solid var(--primary-color);
+        padding-left: 1rem;
+    }
+
+    /* Feature 7: Difficulty Rating */
+    .difficulty-badge {
+        display: inline-block;
+        padding: 0.1rem 0.3rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .difficulty-easy {
+        background: #d1fae5;
+        color: #047857;
+    }
+    .difficulty-medium {
+        background: #fde68a;
+        color: #854d0e;
+    }
+    .difficulty-hard {
+        background: #fca5a5;
+        color: #991b1b;
+    }
+
+    /* Feature 8: Answer Pattern Analysis */
+    .answer-pattern {
+        padding: 0.5rem;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+        margin-bottom: 0.5rem;
+    }
+    .pattern-title {
+        font-weight: bold;
+    }
+    .pattern-description {
+        font-size: 0.875rem;
+        color: var(--text-muted-light);
+    }
+
+    /* Feature 9: Study Focus Generator */
+    .study-focus-item {
+        padding: 0.75rem;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius);
+        margin-bottom: 0.5rem;
+    }
+    .study-focus-item strong {
+        color: var(--primary-color);
+    }
+    .study-focus-item:nth-child(1) {
+        background: #f0f9ff;
+        border-color: var(--primary-color);
+    }
+    .study-focus-item:nth-child(2) {
+        background: #fef3c7;
+        border-color: var(--warning-color);
+    }
+
+    /* Feature 10: Performance Stats */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .stat-item {
+        padding: 1rem;
+        border-radius: var(--radius);
+        background: var(--bg-card-light);
+        font-size: 0.875rem;
+    }
+    .dark .stat-item {
+        background: var(--bg-card-dark);
+    }
+    .stat-value {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-top: 0.25rem;
+    }
+
+    /* ===== MOBILE OPTIMIZATIONS ===== */
+    @media (max-width: 768px) {
+        .exam-footer {
+            padding: 0.6rem 0;
+        }
+        
+        .exam-controls {
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.5rem;
+        }
+        
+        .timer {
+            font-size: 1.25rem;
+            padding: 0.4rem 0.8rem;
+        }
+        
+        .action-buttons {
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .nav-buttons {
+            width: 100%;
+        }
+        
+        .btn {
+            width: 100%;
+            max-width: none;
+        }
+        
+        .btn-sm {
+            font-size: 0.7rem;
+            padding: 0.3rem 0.6rem;
+        }
+        
+        .btn-lg {
+            font-size: 0.9rem;
+            padding: 0.5rem 1.5rem;
+        }
+        
+        .exam-content {
+            padding-bottom: 4rem; /* Extra space for footer */
+        }
+        
+        /* Hide jump button on mobile in step mode */
+        .nav-step .exam-footer #btn-jump-to-first {
+            display: none;
+        }
+        
+        /* Better mobile question layout */
+        .question-stem {
+            font-size: 0.95rem;
+        }
+        
+        .choices-container {
+            gap: 0.5rem;
+        }
+        
+        .choice-btn {
+            padding: 0.6rem 0.8rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Mobile-specific review features */
+        .review-controls {
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .review-controls select,
+        .review-controls input {
+            max-width: 100%;
+        }
+        
+        /* PDF Container Mobile */
+        .printable-container {
+            padding: 1.5cm;
+            font-size: 10pt;
+        }
+        
+        .printable-title {
+            font-size: 16pt;
+        }
+        
+        .printable-question h3 {
+            font-size: 12pt;
+        }
+        
+        .printable-stem {
+            font-size: 10pt;
+        }
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="screen-loading" class="screen">
+    <div class="loading-container">
+      <div class="spinner"></div>
+      <p>Preparing Your Exam...</p>
+      <p class="text-muted">Loading question bank and settings</p>
+    </div>
+  </div>
+
+  <!-- Main Menu -->
+  <div id="screen-main-menu" class="screen hidden">
+    <div class="container">
+      <div class="header">
+        <h1>Civil Engineering Exam Simulator</h1>
+        <p id="progress-text">0/3 sections completed</p>
+      </div>
+      
+      <div class="action-buttons mb-4">
+        <button type="button" id="btn-custom-exam" class="btn btn-primary">🎯 Create Custom Exam</button>
+      </div>
+      
+      <div id="section-grid" class="section-grid"></div>
+      
+      <div class="action-buttons">
+        <div class="nav-buttons">
+          <button type="button" id="btn-settings" class="btn btn-secondary">⚙️ Settings</button>
+          <button type="button" id="btn-download-pdf" class="btn btn-secondary">📄 Download for Offline</button>
+        </div>
+        <button type="button" id="btn-reset" class="btn btn-danger">🗑️ Reset Exam Data</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Exam Builder -->
+  <div id="screen-custom-exam" class="screen hidden">
+    <div class="container">
+      <div class="card">
+        <h1 class="section-title">🎯 Create Custom Exam</h1>
+        
+        <div class="mb-4">
+          <h2>Exam Configuration</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="section-card">
+              <h3 class="font-bold mb-2">Section Selection</h3>
+              <div class="flex flex-col gap-2">
+                <label class="flex items-center">
+                  <input type="checkbox" id="amsthec-include" class="mr-2" checked>
+                  <span>AMSTHEC (75 questions)</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" id="hpge-include" class="mr-2" checked>
+                  <span>HPGE (50 questions)</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" id="psad-include" class="mr-2" checked>
+                  <span>PSAD (75 questions)</span>
+                </label>
+              </div>
+            </div>
+            
+            <div class="section-card">
+              <h3 class="font-bold mb-2">Exam Options</h3>
+              <div class="flex flex-col gap-2">
+                <label class="flex items-center">
+                  <input type="checkbox" id="randomize-questions" class="mr-2" checked>
+                  <span>Randomize questions</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="checkbox" id="include-timer" class="mr-2" checked>
+                  <span>Include timer</span>
+                </label>
+                <div class="flex items-center">
+                  <label for="difficulty-filter" class="mr-2">Difficulty:</label>
+                  <select id="difficulty-filter" class="btn btn-secondary">
+                    <option value="all">All difficulties</option>
+                    <option value="easy">Easy only</option>
+                    <option value="medium">Medium only</option>
+                    <option value="hard">Hard only</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mb-4">
+          <h2>Question Selection</h2>
+          <div class="section-card">
+            <div class="flex flex-col md:flex-row gap-4">
+              <div class="w-full md:w-1/2">
+                <label class="block mb-1">Number of Questions</label>
+                <input type="range" id="question-count" min="10" max="200" value="100" class="w-full">
+                <div class="flex justify-between text-sm">
+                  <span>10</span>
+                  <span id="question-count-value">100</span>
+                  <span>200</span>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2">
+                <label class="block mb-1">Time Limit (hours)</label>
+                <input type="range" id="time-limit" min="1" max="10" value="4" class="w-full">
+                <div class="flex justify-between text-sm">
+                  <span>1 hour</span>
+                  <span id="time-limit-value">4 hours</span>
+                  <span>10 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="action-buttons">
+          <button type="button" id="btn-custom-exam-back" class="btn btn-secondary">Back to Main Menu</button>
+          <button type="button" id="btn-create-custom-exam" class="btn btn-primary">Create Exam</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Instructions Screen -->
+  <div id="screen-instructions" class="screen hidden">
+    <div class="container">
+      <div class="card">
+        <h1 class="section-title">Exam Instructions</h1>
+        <p id="instruction-section-title" class="section-subtitle"></p>
+        
+        <div class="instructions-box">
+          <p class="instructions-title">Please read the following instructions carefully:</p>
+          <ul id="prc-instructions" class="instructions-list"></ul>
+        </div>
+        
+        <div id="motivational-quote" class="quote"></div>
+        
+        <div class="action-buttons">
+          <button type="button" id="btn-instructions-back" class="btn btn-secondary">Back to Main Menu</button>
+          <button type="button" id="btn-start-exam" class="btn btn-primary">Start Exam Section</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exam Screen -->
+  <div id="screen-exam" class="screen hidden">
+    <header class="exam-header">
+      <div class="container">
+        <div class="exam-info">
+          <h1 id="exam-section-title"></h1>
+          <p id="exam-progress"></p>
+        </div>
+        <div class="exam-controls">
+          <div id="exam-timer" class="timer">05:00:00</div>
+          <button type="button" id="btn-pause-resume" class="btn btn-secondary">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6"></path>
+            </svg> Pause
+          </button>
+          <button type="button" id="btn-submit-exam" class="btn btn-primary">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg> Submit
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="exam-content">
+      <div id="exam-questions-container" class="questions-container"></div>
+    </main>
+    <footer class="exam-footer">
+      <div class="container">
+        <button type="button" id="btn-jump-to-first" class="btn btn-secondary btn-sm">Jump to first unanswered</button>
+        <button type="button" id="btn-nav-next" class="btn btn-primary btn-sm">Next Question</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Settings Screen -->
+  <div id="screen-settings" class="screen hidden">
+    <div class="container">
+      <div class="card">
+        <h1 class="section-title">⚙️ Settings</h1>
+        
+        <div class="settings-group">
+          <h2>Theme</h2>
+          <div class="theme-switcher">
+            <button type="button" id="theme-light" class="btn btn-secondary">☀️ Light</button>
+            <button type="button" id="theme-dark" class="btn btn-secondary">🌙 Dark</button>
+          </div>
+        </div>
+        
+        <div class="settings-group">
+          <h2>Font Size</h2>
+          <div class="font-switcher">
+            <button type="button" id="font-small" class="btn btn-secondary btn-sm">A Small</button>
+            <button type="button" id="font-medium" class="btn btn-secondary">A Medium</button>
+            <button type="button" id="font-large" class="btn btn-secondary btn-lg">A Large</button>
+          </div>
+        </div>
+        
+        <div class="settings-group">
+          <h2>Navigation Mode</h2>
+          <div class="nav-mode-switcher">
+            <button type="button" id="nav-scroll" class="btn btn-secondary">Scroll (Default)</button>
+            <button type="button" id="nav-step" class="btn btn-secondary">Step-by-step</button>
+          </div>
+        </div>
+        
+        <div class="settings-group">
+          <h2>Exam Settings</h2>
+          <div class="data-options">
+            <button type="button" id="btn-auto-save" class="btn btn-secondary">
+              <span id="auto-save-status">✅</span> Auto-Save Answers
+            </button>
+            <button type="button" id="btn-show-timer" class="btn btn-secondary">
+              <span id="show-timer-status">✅</span> Show Timer
+            </button>
+            <button type="button" id="btn-randomize-questions" class="btn btn-secondary">
+              <span id="randomize-status">✅</span> Randomize Questions
+            </button>
+          </div>
+        </div>
+        
+        <div class="settings-group">
+          <h2>Section Progress</h2>
+          <div class="data-options">
+            <button type="button" id="btn-show-progress" class="btn btn-secondary">
+              <span id="show-progress-status">✅</span> Show Progress Bar
+            </button>
+            <button type="button" id="btn-show-difficulty" class="btn btn-secondary">
+              <span id="show-difficulty-status">✅</span> Show Difficulty
+            </button>
+          </div>
+        </div>
+        
+        <div class="action-buttons mt-4">
+          <button type="button" id="btn-settings-back" class="btn btn-secondary">Back to Main Menu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Results Screen -->
+  <div id="screen-results" class="screen hidden">
+    <div class="container results-container">
+      <div class="results-card">
+        <h1 class="section-title">Exam Results</h1>
+        <p id="results-section-title"></p>
+        <p class="score-message" id="score-message"></p>
+        <div class="score" id="results-score">0%</div>
+        
+        <div class="stats-grid">
+          <div class="stat-item"><span>Total Questions</span><div class="stat-value" id="total-questions">0</div></div>
+          <div class="stat-item"><span>Correct Answers</span><div class="stat-value text-green-500" id="correct-answers">0</div></div>
+          <div class="stat-item"><span>Wrong/Skipped</span><div class="stat-value text-red-500" id="wrong-answers">0</div></div>
+        </div>
+        
+        <div class="action-buttons">
+          <button type="button" id="btn-results-main-menu" class="btn btn-secondary">Back to Main Menu</button>
+          <button type="button" id="btn-review-section" class="btn btn-primary">Review Answers</button>
+        </div>
+      </div>
+      
+      <!-- New: Performance Heatmap -->
+      <div class="card mt-4">
+        <h2 class="section-title">Performance Heatmap</h2>
+        <p>Identify your strongest and weakest areas</p>
+        <canvas id="performance-heatmap" height="200"></canvas>
+        <div class="mt-4">
+          <div class="flex items-center gap-2">
+            <div class="w-4 h-4 bg-red-500"></div>
+            <span>Weak (0-50%)</span>
+            <div class="w-4 h-4 bg-yellow-500 ml-4"></div>
+            <span>Average (51-75%)</span>
+            <div class="w-4 h-4 bg-green-500 ml-4"></div>
+            <span>Strong (76-100%)</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New: Study Focus Generator -->
+      <div class="card mt-4">
+        <h2 class="section-title">Study Focus Recommendations</h2>
+        <p class="text-muted">Based on your performance, here's what to focus on next</p>
+        <div id="study-focus-container"></div>
+      </div>
+      
+      <div class="wrong-answers-section" id="wrong-answers-section">
+        <h2>Review Incorrect Answers</h2>
+        <p class="text-center mb-4">Review your mistakes with explanations</p>
+        <div id="wrong-answers-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Review Screen -->
+  <div id="screen-review" class="screen hidden">
+    <div class="container">
+      <div class="card">
+        <div class="review-header">
+          <h1 id="review-section-title">Review Section</h1>
+          <p id="review-progress" class="text-muted"></p>
+        </div>
+        
+        <div class="review-controls">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="flex items-center">
+              <label for="review-filter" class="mr-2">Filter:</label>
+              <select id="review-filter" class="btn btn-secondary">
+                <option value="all">All Questions</option>
+                <option value="correct">Correct Only</option>
+                <option value="wrong">Wrong Only</option>
+                <option value="skipped">Skipped Only</option>
+                <option value="flagged">Flagged Only</option>
+              </select>
+            </div>
+            <div class="flex items-center">
+              <label for="review-difficulty" class="mr-2">Difficulty:</label>
+              <select id="review-difficulty" class="btn btn-secondary">
+                <option value="all">All Difficulties</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+            <div class="flex items-center flex-grow">
+              <label for="review-search" class="mr-2">Search:</label>
+              <input type="text" id="review-search" placeholder="Search questions..." class="btn btn-secondary flex-grow">
+            </div>
+          </div>
+          
+          <!-- New: Answer Pattern Analysis -->
+          <div class="mt-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <h3 class="font-bold mb-2">Answer Pattern Analysis</h3>
+            <div id="answer-patterns" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <!-- Will be populated dynamically -->
+            </div>
+          </div>
+        </div>
+        
+        <div id="review-questions-container" class="review-questions-container"></div>
+        
+        <div class="action-buttons mt-4">
+          <button type="button" id="btn-review-back" class="btn btn-secondary">Back to Main Menu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div id="confirm-modal" class="modal-overlay hidden">
+    <div class="modal-content confirm-modal">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-message"></p>
+      <div class="modal-buttons">
+        <button type="button" id="btn-confirm-cancel" class="btn btn-secondary">Cancel</button>
+        <button type="button" id="btn-confirm-ok" class="btn btn-primary">Yes, Proceed</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="image-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <button type="button" id="close-image-modal" class="modal-close" aria-label="Close image">
+        <svg class="icon" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      <img id="zoomed-image" src="" alt="Zoomed figure" class="zoomed-image">
+    </div>
+  </div>
+
+  <!-- PDF Container (for printing) -->
+  <div id="pdf-container" class="printable-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
