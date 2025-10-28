@@ -7108,5 +7108,7265 @@
     "difficulty": 1,
     "term": "True",
     "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-01H",
+    "stem": "Situation – A closed conical tank has a bottom radius of 40 cm and is 90 cm tall. The tank contains 0.058 m^3 of water. What is the depth of water in the tank?",
+    "choices": [
+      "18.57 cm",
+      "11.56 cm",
+      "15.63 cm",
+      "13.45 cm"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-01H",
+    "stem": "What is the total volume of the tank?",
+    "choices": [
+      "145.6 liters",
+      "132.7 liters",
+      "165.2 liters",
+      "150.8 liters"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-01H",
+    "stem": "How much water is required to fill the tank?",
+    "choices": [
+      "107.2 liters",
+      "92.8 liters",
+      "87.6 liters",
+      "74.7 liters"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-02H",
+    "stem": "Situation – A 12-mm thick steel pipe with inside diameter of 600 mm coveys water under a head of 350 m. What is the tensile stress in the pipe wall in kN per meter?",
+    "choices": [
+      "1030.05",
+      "1247.65",
+      "1102.58",
+      "954.77"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-02H",
+    "stem": "What is the stress in the pipe wall if the head is increased to 500 m of water?",
+    "choices": [
+      "122.6 MPa",
+      "128.7 MPa",
+      "114.5 MPa",
+      "136.6 MPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-02H",
+    "stem": "What is the required thickness under a head of 500 m if the allowable tensile stress of the pipe is 123 MPa and assuming that the joints are 75% efficient.",
+    "choices": [
+      "14 mm",
+      "20 mm",
+      "16 mm",
+      "18 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-03H",
+    "stem": "Situation – A 3-m square plate is immersed in water in a vertical position such that the two edges of the square are horizontal. The immersion is such that the center of pressure on the plate is 9 cm from its center of gravity. Determine the distance from the water surface to the top of the gate.",
+    "choices": [
+      "6.83 m",
+      "6.24 m",
+      "7.12 m",
+      "7.54 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-03H",
+    "stem": "Determine the distance from the water surface to the center of pressure.",
+    "choices": [
+      "9.134 m",
+      "8.712 m",
+      "8.423 m",
+      "7.834 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-03H",
+    "stem": "Determine the total hydrostatic force acting on one side of the gate.",
+    "choices": [
+      "768.98 kN",
+      "647.85 kN",
+      "865.42 kN",
+      "735.75 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-04H",
+    "stem": "Situation – A stone weighs 5.2 N when immersed in water and 6 N when immersed in alcohol having a specific gravity of 0.80. Unit weight of water is 9.81 kN/m^3. What is the volume of the stone?",
+    "choices": [
+      "0.000325 m^3",
+      "0.000408 m^3",
+      "0.000623 m^3",
+      "0.000472 m^3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-04H",
+    "stem": "What is the specific gravity of the stone?",
+    "choices": [
+      "2.3",
+      "2.4",
+      "2.2",
+      "2.1"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-04H",
+    "stem": "What is the density of the stone?",
+    "choices": [
+      "2400 kg/m^3",
+      "2100 kg/m^3",
+      "2100 kg/m^3",
+      "2300 kg/m^3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-05H",
+    "stem": "Situation – A piece of metal having a specific gravity of 3.7 is floating in mercury having a specific gravity of 13.6. What fraction of the total volume of the metal is above the mercury surface?",
+    "choices": [
+      "76.54%",
+      "68.65%",
+      "72.79%",
+      "65.32%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-05H",
+    "stem": "If the volume of the metal below the mercury surface is 0.011 m^3, what is the total weight of the metal?",
+    "choices": [
+      "1.759 kN",
+      "2.147 kN",
+      "1.468 kN",
+      "1.236 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-05H",
+    "stem": "What vertical force will keep the metal fully submerged in mercury?",
+    "choices": [
+      "3.927 kN",
+      "4.254 kN",
+      "3.754 kN",
+      "4.563 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-06H",
+    "stem": "Situation – A cylindrical tank, 1 m in diameter and 2 m high weighs 1200 Newtons. The tank is to float in water with a draft of 1.8 m. Unit weight of lead is 110 kN/m^3. How much lead is required if it is to be placed inside the tank?",
+    "choices": [
+      "13.24 kN",
+      "12.67 kN",
+      "11.78 kN",
+      "15.63 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-06H",
+    "stem": "How much lead is required if it is to be attached at the outside bottom of the tank?",
+    "choices": [
+      "13.91 kN",
+      "14.57 kN",
+      "15.24 kN",
+      "16.27 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-06H",
+    "stem": "In part 2, how much additional weight of lead is required to make the cylinder fully submerged in water?",
+    "choices": [
+      "1.987 kN",
+      "2.217 kN",
+      "1.692 kN",
+      "1.254 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-07H",
+    "stem": "Situation – Water flows in a 400-mm-diameter pipe at the rate of 500 liters per second. The pipe has a length of 45 m. Compute the head loss using Darcy Weisbach formula with f = 0.028.",
+    "choices": [
+      "2.59 m",
+      "2.67 m",
+      "3.12 m",
+      "2.54 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-07H",
+    "stem": "Compute the head loss using Hazen William's formula with C1 = 92.",
+    "choices": [
+      "3.12 m",
+      "2.54 m",
+      "2.59 m",
+      "2.69 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-07H",
+    "stem": "Compute the head loss using Manning's formula with n = 0.013.",
+    "choices": [
+      "2.54 m",
+      "2.59 m",
+      "2.67 m",
+      "3.12 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-08H",
+    "stem": "Situation – A trapezoidal canal has a base width of 6 m. The velocity of flow is 0.85 m/s. Determine the discharge using the most efficient canal section.",
+    "choices": [
+      "37.48 m^3/s",
+      "35.22 m^3/s",
+      "41.25 m^3/s",
+      "39.75 m^3/s"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-08H",
+    "stem": "Determine the discharge for minimum seepage if the sides of the canal makes an angle of 45° with the horizontal.",
+    "choices": [
+      "32.75 m^3/s",
+      "36.65 m^3/s",
+      "25.48 m^3/s",
+      "29.62 m^3/s"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-08H",
+    "stem": "Determine the discharge if the canal depth is 2/3 of its base width and sides slope of 1:1.",
+    "choices": [
+      "34 m^3/s",
+      "32 m^3/s",
+      "36 m^3/s",
+      "38 m^3/s"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-09H",
+    "stem": "Situation – One cubic meter of wet soil weighs 18.50 kN. If the specific gravity of soil particles is 2.70 and water content is 24.5%, determine the following: The void ratio.",
+    "choices": [
+      "0.837",
+      "0.783",
+      "0.638",
+      "0.863"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-09H",
+    "stem": "The dry unit weight.",
+    "choices": [
+      "15.24 kN/m^3",
+      "14.86 kN/m^3",
+      "13.47 kN/m^3",
+      "16.58 kN/m^3"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-09H",
+    "stem": "The degree of saturation.",
+    "choices": [
+      "84.54%",
+      "80.47%",
+      "89.67%",
+      "78.54%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-10H",
+    "stem": "Situation – A clay sample has a plastic limit of 12% and liquid limit of 65%. Which of the following is a measure of these limits?",
+    "choices": [
+      "liquidity index",
+      "water content",
+      "plasticity index",
+      "shrinkage index"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-10H",
+    "stem": "Determine the plasticity index of the clay.",
+    "choices": [
+      "53%",
+      "56%",
+      "50%",
+      "60%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-10H",
+    "stem": "Determine the liquidity index if the natural moisture content is 40%.",
+    "choices": [
+      "0.475",
+      "0.338",
+      "0.528",
+      "0.635"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-11H",
+    "stem": "Situation – Given the laboratory results of the Atterberg Limits Test in Figure 004. Plot the water content versus the number of blows. Determine the nearest value to the Liquid Limit of the soil.",
+    "choices": [
+      "39.3%",
+      "35.6%",
+      "42.5%",
+      "46.7%"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-11H",
+    "stem": "Determine the nearest value to the Plastic Limit of the soil.",
+    "choices": [
+      "30.36%",
+      "44.93%",
+      "35.24%",
+      "25.47%"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-11H",
+    "stem": "Determine the nearest value to the Liquidity Index of the soil.",
+    "choices": [
+      "1.52",
+      "1.63",
+      "1.34",
+      "1.21"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-12H",
+    "stem": "Situation – Dry soil is mixed with 16% by weight with water and then compacted. The moist soil has a volume of 0.001 m^3 and a mass of 1.6 kg. The soil solids have specific gravity of 2.72. What is the dry unit weight of the soil?",
+    "choices": [
+      "12.47 kN/m^3",
+      "13.53 kN/m^3",
+      "14.58 kN/m^3",
+      "15.63 kN/m^3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-12H",
+    "stem": "What is the void ratio of the soil in percent?",
+    "choices": [
+      "97.27",
+      "95.63",
+      "98.64",
+      "90.58"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-12H",
+    "stem": "What is the degree of saturation of the soil in percent?",
+    "choices": [
+      "47.98",
+      "53.22",
+      "44.74",
+      "48.65"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-13H",
+    "stem": "Situation – The field compaction of an earthwork was checked by an inspection engineer. In the laboratory test, the soil gives a maximum dry density of 1.523 grm/cc at optimum moisture content of 23.4%. Construction specifications requires that the soil compacted dry density must be at least 95% of the maximum dry density obtained from laboratory within ±2% of optimum moisture content. The following data were obtained in the field using the sand cone test: Volume of soil excavated = 1425 cm^3, Weight of soil excavated = 2542 grams, Dry weight of soil = 2068 grams. What is the field unit weight of the soil?",
+    "choices": [
+      "1.784 grm/cc",
+      "1.632 grm/cc",
+      "1.825 grm/cc",
+      "1.574 grm/cc"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-13H",
+    "stem": "What is the in situ moisture content of the soil?",
+    "choices": [
+      "23.56%",
+      "22.92%",
+      "21.41%",
+      "24.56%"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-13H",
+    "stem": "Determine the relative compaction of the soil.",
+    "choices": [
+      "95.1% not adequate",
+      "96.2% adequate",
+      "95.3% adequate",
+      "94.4% not adequate"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-14H",
+    "stem": "Situation – A certain soil has hydraulic gradient of 1.23 at quicksand condition. The bulk unit weight of the soil is 19.85 kN/m^3 with void ratio of 42%. What is the specific gravity of the soil solids?",
+    "choices": [
+      "2.75",
+      "2.71",
+      "2.65",
+      "2.61"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-14H",
+    "stem": "What is the dry unit weight of the soil?",
+    "choices": [
+      "18.24 kN/m^3",
+      "19.34 kN/m^3",
+      "17.52 kN/m^3",
+      "18.98 kN/m^3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-14H",
+    "stem": "What is the moisture content?",
+    "choices": [
+      "8.63%",
+      "12.41%",
+      "4.61%",
+      "5.87%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-15H",
+    "stem": "Situation – The result of sieve analysis on three soils is given below. It is required to classify these soils using the USCS. See Figure S300-25 and Use Table 02.1. Which of the following gives the classification of soil A.",
+    "choices": [
+      "SP",
+      "SW",
+      "GP",
+      "GW"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-15H",
+    "stem": "Which of the following gives the classification of soil B.",
+    "choices": [
+      "SC",
+      "SM",
+      "GM",
+      "GC"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-15H",
+    "stem": "Which of the following gives the classification of soil C.",
+    "choices": [
+      "OL",
+      "CH",
+      "ML",
+      "CL"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-16H",
+    "stem": "Situation – The water table in a soil layer is 1 meter below the ground. The soil above the water table is also saturated due to capillary action. Saturated unit weight of soil is 20.15 kN/m^3. Determine the total pressure at plane \"A\" in kPa. (A is 4.3 meters below the ground).",
+    "choices": [
+      "86.65",
+      "84.25",
+      "89.63",
+      "82.14"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-16H",
+    "stem": "Determine the pore water pressure at plane A, in kPa.",
+    "choices": [
+      "32.37",
+      "35.68",
+      "30.12",
+      "38.54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-16H",
+    "stem": "Determine the effective pressure at plane A, in kPa.",
+    "choices": [
+      "52.14",
+      "50.86",
+      "58.74",
+      "54.27"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-17H",
+    "stem": "Situation – The water table in a soil layer is 1.2 meter below the ground. The soil above the water table is also saturated due to capillary action. Saturated unit weight of soil is 19.84 kN/m^3. Determine the total pressure at plane \"A\" in kPa. (A is 4.8 meters below the ground).",
+    "choices": [
+      "92.54",
+      "95.23",
+      "101.45",
+      "84.25"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-17H",
+    "stem": "Determine the pore water pressure at plane A, in kPa.",
+    "choices": [
+      "30.54",
+      "45.78",
+      "35.32",
+      "41.36"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-17H",
+    "stem": "Determine the effective pressure at plane A, in kPa.",
+    "choices": [
+      "54.78",
+      "58.20",
+      "68.54",
+      "59.92"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-18H",
+    "stem": "Situation – A 4 m thick of sand overlies a thick layer of clay. The water table is 1.8 m below the sand surface. The sand has a void ratio of 0.53 and a degree of saturation of 36% above the water table. The clay has moisture content of 45%. G = 2.68 for both sand and clay. What is the unit weight of sand above water table?",
+    "choices": [
+      "20.58 kN/m^3",
+      "18.41 kN/m^3",
+      "17.28 kN/m^3",
+      "19.65 kN/m^3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-18H",
+    "stem": "Determine the total stress at a point 12 m below the sand surface.",
+    "choices": [
+      "201.7 kPa",
+      "236.8 kPa",
+      "216.7 kPa",
+      "225.4 kPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-18H",
+    "stem": "Determine the effective stress at a point 12 m below the sand surface.",
+    "choices": [
+      "116.6 kPa",
+      "124.8 kPa",
+      "132.1 kPa",
+      "111.7 kPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-19H",
+    "stem": "Situation – The soil profile shown in Figure S200-100 is subjected to an increase in pressure of 12 N/cm^2. For this problem, h1 = 4.6 m, h2 = 10.5 m, h3 = 7.8 m. Calculate the buoyant unit weight of the clay layer.",
+    "choices": [
+      "7.85 kN/m^3",
+      "8.25 kN/m^3",
+      "9.12 kN/m^3",
+      "8.56 kN/m^3"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-19H",
+    "stem": "Calculate the overburden pressure at the midheight of the clay layer.",
+    "choices": [
+      "161.35 kPa",
+      "196.35 kPa",
+      "180.57 kPa",
+      "170.87 kPa"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-19H",
+    "stem": "Determine the settlement due to primary consolidation.",
+    "choices": [
+      "254 mm",
+      "214 mm",
+      "293 mm",
+      "269 mm"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-20H",
+    "stem": "Situation – A group of friction piles is shown in Figure 28.87 SM-57. The total load on the pile less the soil displaced by the footing is 1900 kN. L1 = 2 m, L2 = 1.8 m, L = 12 m, t = 19 m, qu = 180 kPa, FS = 3. Compute for the overburden pressure, that is the effective pressure at the midheight of the consolidating clay layer, in kPa.",
+    "choices": [
+      "134.12",
+      "127.85",
+      "163.54",
+      "148.23"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-20H",
+    "stem": "Compute for the compression index of the clay.",
+    "choices": [
+      "0.304",
+      "0.398",
+      "0.327",
+      "0.254"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-20H",
+    "stem": "What is the approximate settlement of the foundation?",
+    "choices": [
+      "136 mm",
+      "167 mm",
+      "114 mm",
+      "96 mm"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-21H",
+    "stem": "Situation – A confined aquifer is shown in the Figure. This aquifer has a source of recharge located as shown. The hydraulic conductivity of the aquifer is 48 m/day with a porosity of 25%. The piezometric (head) surface in two observation wells 1100 m apart are at elevation 65 m and 60 m, respectively from the common datum. The aquifer has an average thickness of 25 m and an average width of 4 km. Determine the nearest value to the rate of flow of water through the aquifer, in cubic meters per day.",
+    "choices": [
+      "24,000",
+      "20,000",
+      "17,778",
+      "21,818"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-21H",
+    "stem": "Determine the nearest value to the seepage velocity in m/day.",
+    "choices": [
+      "0.80",
+      "0.96",
+      "0.87",
+      "0.711"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-21H",
+    "stem": "Determine the nearest value to the time of travel from the head of aquifer to a point 4.8 km downstream, in days.",
+    "choices": [
+      "5000",
+      "6000",
+      "5500",
+      "6750"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-22H",
+    "stem": "Situation – The soil layer under a dam is made up of 4 layers with the following properties: Thickness (m): Layer 1 = 4, Layer 2 = 6, Layer 3 = 10, Layer 4 = 5. K (cm/hr): Layer 1 = 6, Layer 2 = 4, Layer 3 = 3, Layer 4 = 2. What is the equivalent coefficient of permeability in the vertical direction?",
+    "choices": [
+      "1.25 m/day",
+      "0.95 m/day",
+      "0.65 m/day",
+      "0.75 m/day"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-22H",
+    "stem": "What is the transmissivity of the soil when the water table is at the ground surface?",
+    "choices": [
+      "25.42 m^2/day",
+      "18.75 m^2/day",
+      "15.24 m^2/day",
+      "20.87 m^2/day"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-22H",
+    "stem": "If the hydraulic gradient of flow is 0.002, what is the interstitial velocity of water though the soil if the soil has average void ratio of 0.70?",
+    "choices": [
+      "0.0152 cm/hr",
+      "0.0187 cm/hr",
+      "0.0214 cm/hr",
+      "0.0321 cm/hr"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-23H",
+    "stem": "Situation – A gravity well penetrates 15 meters below the static water table. After 24 hours of pumping at constant rate of 52 liters per second, the water table in two observation wells located 25 m and 65 m from the well showed drawdown of 1.5 meter and 0.8 meter, respectively. Determine the nearest value to the pumping rate in cubic meters per day.",
+    "choices": [
+      "4668",
+      "4493",
+      "3876",
+      "4157"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-23H",
+    "stem": "Determine the nearest value to the coefficient of permeability of the soil in meters per day.",
+    "choices": [
+      "68.52",
+      "76.33",
+      "70.47",
+      "76.54"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-23H",
+    "stem": "Determine the nearest value to the transmissivity of the soil layer, in m^2/day.",
+    "choices": [
+      "1057",
+      "908",
+      "921",
+      "976"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-24H",
+    "stem": "Situation – A gravity well penetrates 24 meters below the static water table. After 24 hours of pumping at constant rate of 87 liters per second, the water table in two observation wells located 36 m and 82 m from the well showed drawdown of 1.15 meter and 0.63 meter, respectively. Determine the nearest value to the pumping rate in cubic meters per day.",
+    "choices": [
+      "7368",
+      "7952",
+      "7517",
+      "7156"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-24H",
+    "stem": "Determine the nearest value to the coefficient of permeability of the soil in meters per day.",
+    "choices": [
+      "81.95",
+      "86.54",
+      "75.48",
+      "96.33"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-24H",
+    "stem": "Determine the nearest value to the transmissivity of the soil in m^2/day.",
+    "choices": [
+      "2045",
+      "1967",
+      "1152",
+      "1894"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-25H",
+    "stem": "Situation – In a triaxial test of a cohesionless soil, the normal and shearing stresses at failure plane are 342 kPa and 167 kPa, respectively. Determine the angle of shearing resistance of the soil in degrees.",
+    "choices": [
+      "25.45",
+      "26.03",
+      "27.09",
+      "24.32"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-25H",
+    "stem": "Determine the angle of failure plane in degrees.",
+    "choices": [
+      "58.01",
+      "52.14",
+      "60.74",
+      "58.55"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-25H",
+    "stem": "What is the principal stress at failure, in kPa?",
+    "choices": [
+      "657.3",
+      "628.1",
+      "643.5",
+      "609.4"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-26H",
+    "stem": "Situation – A triaxial test is conducted on a cohesionless soil. Failure occurs when the deviator (plunger) stress is 360 kPa. The angle of friction of the soil is 28°. Determine the angle that the failure plane make with the horizontal.",
+    "choices": [
+      "59°",
+      "61°",
+      "57°",
+      "63°"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-26H",
+    "stem": "The confining pressure.",
+    "choices": [
+      "215.4 kPa",
+      "209.6 kPa",
+      "203.4 kPa",
+      "224.7 kPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-26H",
+    "stem": "The shearing stress at failure plane.",
+    "choices": [
+      "152.4 kPa",
+      "146.6 kPa",
+      "158.9 kPa",
+      "163.7 kPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-27H",
+    "stem": "Situation – In a triaxial test on a cohesionless soil, the soil fails when the deviator stress is 320 kPa and the angle of failure plane is 58° with the horizontal. What is the normal stress at failure in kPa?",
+    "choices": [
+      "278.52",
+      "321.47",
+      "257.63",
+      "294.85"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-27H",
+    "stem": "What is the shearing stress at failure in kPa?",
+    "choices": [
+      "143.81",
+      "163.85",
+      "155.12",
+      "132.54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-27H",
+    "stem": "What is the confining pressure in kPa?",
+    "choices": [
+      "225",
+      "245",
+      "215",
+      "205"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-28H",
+    "stem": "Situation – A 7-m high vertical retaining wall retains soil with the following properties: Sp. gr. of soil solids = 2.72, Void ratio = 0.65, Angle of shearing resistance = 26°. Determine the total active pressure (per meter length of wall) when the water table is the top of the wall.",
+    "choices": [
+      "338.17 kN",
+      "365.85 kN",
+      "302.47 kN",
+      "452.32 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-28H",
+    "stem": "Determine the total active pressure (per meter length of wall) when the water table drops to a depth of 3 m from the top of the wall and assuming that the soil above the water table is dry.",
+    "choices": [
+      "185.47 kN",
+      "286.33 kN",
+      "256.33 kN",
+      "214.61 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-28H",
+    "stem": "Determine the total active pressure (per meter length of wall) when the water table is at the base of wall, and the soil above the water table has moisture content of 12%.",
+    "choices": [
+      "196.33 kN",
+      "135.34 kN",
+      "173.27 kN",
+      "152.47 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-29H",
+    "stem": "Situation – A sheet pile 10 m in length is to retain a 7 m deep of soil with friction angle of 30° and unit weight of 18.8 kN/m^3. It is anchored to a depth of 1.5 m below the top of the pile. The anchors are spaced 3 m. Find the total active force on the wall per meter width.",
+    "choices": [
+      "479.8 kN",
+      "418.6 kN",
+      "325.4 kN",
+      "313.3 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-29H",
+    "stem": "What percentage of the total passive resistance was mobilized?",
+    "choices": [
+      "79.63%",
+      "74.32%",
+      "85.05%",
+      "97.52%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-29H",
+    "stem": "Determine the tension on the anchor.",
+    "choices": [
+      "292.44 kN",
+      "365.47 kN",
+      "300.47 kN",
+      "130.26 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-30H",
+    "stem": "Situation – A braced cut in sand 7 m deep is shown in the Figure. In the plan, the struts are placed at s = 1.5 m center to center. Use Peck's empirical pressure diagram. What is the load on strut A in kN.",
+    "choices": [
+      "87.52",
+      "114.87",
+      "94.25",
+      "102.54"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-30H",
+    "stem": "What is the load on strut B in kN.",
+    "choices": [
+      "31.42",
+      "46.52",
+      "59.86",
+      "78.54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-30H",
+    "stem": "What is the load on strut C in kN.",
+    "choices": [
+      "187.69",
+      "124.78",
+      "167.56",
+      "152.47"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-31H",
+    "stem": "Situation – A prestressed concrete pile, 350 mm × 350 mm in cross-section, is driven in a clayey soil (γ = 18.5 kN/m^3) as shown in Figure 04. Use a factor of safety of Nc = 9 and α = 0.75. The unconfined compression strength, qu, of the soil is 110 kPa. Compute the value of the skin friction (side shear) of the pile in kN.",
+    "choices": [
+      "921.54",
+      "866.25",
+      "879.53",
+      "905.66"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-31H",
+    "stem": "Compute the value of the end bearing capacity of the pile, in kN.",
+    "choices": [
+      "70.45",
+      "78.84",
+      "60.64",
+      "65.32"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-31H",
+    "stem": "Determine the allowable pile capacity in kN.",
+    "choices": [
+      "370.76",
+      "380.57",
+      "360.54",
+      "390.88"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-32H",
+    "stem": "Situation – A prestressed concrete pile, 400 mm × 400 mm in cross-section, is to be driven in a clayey soil as shown in Figure 22-15(03)-S33 (in previous page). Use the alpha method with a factor of safety of 2. What is the total skin friction expected to be developed along the shaft of the pile in kN?",
+    "choices": [
+      "814.7",
+      "752.4",
+      "965.8",
+      "841.6"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-32H",
+    "stem": "What is the end bearing capacity of pile in kN?",
+    "choices": [
+      "114.2",
+      "187.7",
+      "156.3",
+      "129.6"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-32H",
+    "stem": "What is the allowable pile capacity in kN?",
+    "choices": [
+      "524.7",
+      "485.6",
+      "425.6",
+      "322.2"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-33H",
+    "stem": "Situation – A pile group consist of 9 piles arranged in 3 by 3 formation. Each pile is 320 mm in diameter, 15 meters long and spaced 0.85 m on centers. Determine the allowable load of the pile group considering individual action. Use Nc = 9, qu = 150 kPa, and factor of safety of 3.",
+    "choices": [
+      "3642 kN",
+      "4078 kN",
+      "3556 kN",
+      "3875 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-33H",
+    "stem": "Determine the allowable load of the pile group considering group action.",
+    "choices": [
+      "3175 kN",
+      "3645 kN",
+      "3477 kN",
+      "3997 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "N12-33H",
+    "stem": "Determine the minimum spacing of piles to achieve 100% efficiency.",
+    "choices": [
+      "1012 mm",
+      "971 mm",
+      "914 mm",
+      "886 mm"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-01Ms",
+    "stem": "If a negative number is divided by a positive number, which of the following must be the quotient?",
+    "choices": [
+      "negative",
+      "positive",
+      "integer",
+      "fraction"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-02Ms",
+    "stem": "Which of the following can be a product of an even prime number and odd prime number.",
+    "choices": [
+      "4",
+      "12",
+      "6",
+      "8"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-03Ms",
+    "stem": "Describe the roots of the equation 7x^2 - 6x + 12 = 0.",
+    "choices": [
+      "real and unequal",
+      "real and equal",
+      "imaginary",
+      "none of these"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-04Ms",
+    "stem": "Let \"a\" and \"b\" be ranges of numbers in a number line such that -1 ≤ a ≤ 5 and 6 ≤ b ≤ 10. If \"a\" is shifted 6 units to the right and \"b\" is shifted 2 units to the right, how many common units will the shifted \"a\" and \"b\" share?",
+    "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-05Ms",
+    "stem": "Which of the following is equivalent to 1/x + 1/(x + 1)?",
+    "choices": [
+      "(2x + 1)/(x^2 + 1)",
+      "(2x - 1)/(x^2 + x)",
+      "(2x + 3)/(x^2 + 4)",
+      "(2x + 1)/(x^2 + x)"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-06Ms",
+    "stem": "Which of the following gives the expansion of (x/5 - 5/2)^2?",
+    "choices": [
+      "x^2/25 + x - 25/4",
+      "x^2/25 + 2x - 25/4",
+      "x^2/25 + x + 25/4",
+      "x^2/25 - x + 25/4"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-07Ms",
+    "stem": "Divide (2x^2/3 + x/2) by x/2.",
+    "choices": [
+      "4x/3 + 1",
+      "3x/4 + 2",
+      "4x/3 + 1",
+      "3x/4 + 1/2"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-08Ms",
+    "stem": "If (x^2 + 9x + 14)/(x^2 - 49) is divided by (3x + 6)/(x^2 + x - 56), the quotient is:",
+    "choices": [
+      "x + 8",
+      "x + 3",
+      "(x + 8)/3",
+      "(x + 3)/8"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-09Ms",
+    "stem": "If x ≠ 0, which of the following is equivalent to (4x)^-2?",
+    "choices": [
+      "4/x^2",
+      "1/16x^2",
+      "1/16x",
+      "16/x^2"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-10Ms",
+    "stem": "A salesman got P10,000 commission on a sale of a certain item. This amount raised his average commission by P1,500. If his new average commission is P4,000, how many sales did he make?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-11Ms",
+    "stem": "The average of 12 numbers is 11. If one number is removed, the new average is 9. What number was removed?",
+    "choices": [
+      "32",
+      "34",
+      "35",
+      "33"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-12Ms",
+    "stem": "Given the following set of numbers: Set A = (12, 16, 17), Set B = (X, 7, 2, 22). If the average of A and B are equal, what is the value of X?",
+    "choices": [
+      "14.6",
+      "13.2",
+      "15.8",
+      "16.2"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-13Ms",
+    "stem": "If x : y as 13:21.2 and y : z as 24.5:35, find x when z = 42.7",
+    "choices": [
+      "15.478",
+      "18.329",
+      "16.852",
+      "19.652"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-14Ms",
+    "stem": "If x : y as 10:15 and y : z as 18:6, find x when z = 32.",
+    "choices": [
+      "64",
+      "52",
+      "48",
+      "68"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-15Ms",
+    "stem": "In the latest survey by SWS on 400 voters, 130 said they will vote for candidate A, 120 will vote for candidate B, and 150 will vote for candidate C. What is the probability that a registered voter will vote for candidate B?",
+    "choices": [
+      "0.375",
+      "0.285",
+      "0.325",
+      "0.3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-16Ms",
+    "stem": "Twenty (20) GERTC students was surveyed about the size of their memory cards. Twelve students said they have 8 MB, five said they have both 8 MB and 16 MB, two said they neither have 8 MB nor 16 MB, and the rest have 16 MB only. How many students have 16 MB memory cards only?",
+    "choices": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-17Ms",
+    "stem": "Given the following data set: 14, 19, 20, 1, 2, 7, 10, 24, 10, 11, 23, 24, 3, 4, 7, 26. What is the ratio of the second quartile to the third quartile.",
+    "choices": [
+      "21/40",
+      "21/43",
+      "23/43",
+      "23/40"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-18Ms",
+    "stem": "If sin θ = 2/3 and cos θ < 0, find tan θ.",
+    "choices": [
+      "2√5/5",
+      "-2√5/5",
+      "√5/3",
+      "-3/√5"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-19Ms",
+    "stem": "If cos θ = 3/5 and csc θ < 0, find cot θ.",
+    "choices": [
+      "-3√73/73",
+      "3√73/73",
+      "8√73/73",
+      "-8√73/73"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-20Ms",
+    "stem": "If tan θ = -8/3 and csc θ < 0, find sin θ.",
+    "choices": [
+      "-4√73/73",
+      "4√73/73",
+      "8√73/73",
+      "-8√73/73"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-21Ms",
+    "stem": "For an acute angle θ, cos θ = 4/5. What is the value of cos 2θ?",
+    "choices": [
+      "13/25",
+      "8/25",
+      "7/25",
+      "9/25"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-22Ms",
+    "stem": "sin x = 3/5, tan y = 2/5. Find sin (x + y)",
+    "choices": [
+      "0.485",
+      "0.845",
+      "0.548",
+      "0.854"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-23Ms",
+    "stem": "sin x = 0.5. Find cos 2x.",
+    "choices": [
+      "0.732",
+      "0.654",
+      "0.5",
+      "0.866"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-24Ms",
+    "stem": "Find the value of x such that the tangent of angle (2x + 18) is equal to the cotangent of the angle (4x - 12).",
+    "choices": [
+      "16",
+      "15",
+      "13",
+      "14"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-25Ms",
+    "stem": "(sec A - 2)(2 csc A - 1) = 0. What quadrant does A terminates?",
+    "choices": [
+      "IV only",
+      "II & III",
+      "I & IV",
+      "I only"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-26Ms",
+    "stem": "If arcsin (6x + 4y) = 1.5708 and arccos (2x + y) = 1.0472, find x.",
+    "choices": [
+      "1/2",
+      "2/3",
+      "-3/2",
+      "-1/2"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-27Ms",
+    "stem": "In measuring the distance AB, the tape was not accurately levelled and that one end is 0.85 m lower than the other end. If the measured distance is 28.63 m, what is the correct distance?",
+    "choices": [
+      "28.617 m",
+      "28.643 m",
+      "29.127 m",
+      "28.357 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-28Ms",
+    "stem": "A triangular lot ABC has the following data: Angle A = 40°, angle C = 60°, and side AC = 24 m. What is the length of side BC?",
+    "choices": [
+      "21.105 m",
+      "15.665 m",
+      "19.567 m",
+      "17.853 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-29Ms",
+    "stem": "Two stations A and B were setup to determine the height of a mountain. The angles of elevation to the top of the mountain measured from stations A and B were 27.25° and 30.21°, respectively. Station A is 55 m above station B. Station B is 310 m closer to the mountain. If the elevation of station A is 421.63 m, what is the elevation of the top of the mountain?",
+    "choices": [
+      "2154.87 m",
+      "2226.15 m",
+      "2368.74 m",
+      "2663.54 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-30Ms",
+    "stem": "A speedboat has a velocity in still water of 25 kph and heading of N 45° E. If its resultant direction is N 54.9° E, what is the rate of the current which is moving due south?",
+    "choices": [
+      "6.35 kph",
+      "5.25 kph",
+      "4.75 kph",
+      "3.25 kph"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-31Ms",
+    "stem": "Given rectangle whose dimension is 12 cm × 16 cm. Find the diameter of the smallest circle than can contain the rectangle.",
+    "choices": [
+      "10",
+      "20",
+      "15",
+      "12"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-32Ms",
+    "stem": "The area of a triangle inscribed in a circle is 42.23 cm^2. One side of the triangle is 18 cm. Find the length of one side of the triangle if the radius of circumscribing circle is 9 cm.",
+    "choices": [
+      "18.321 cm",
+      "15.425 cm",
+      "16.587 cm",
+      "17.327 cm"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-33Ms",
+    "stem": "A right circular cylinder has a diameter of 8 cm and altitude of 15 cm. Find the farthest possible distance between any two points on the curved surface of the cylinder.",
+    "choices": [
+      "15.62 cm",
+      "17.00 cm",
+      "18.54 cm",
+      "15.00 cm"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-34Ms",
+    "stem": "A structural member has a mass of 400 kg. If all the dimensions of the member is reduced by 30%, what is the mass of the new member?",
+    "choices": [
+      "280 kg",
+      "137.2 kg",
+      "158.7 kg",
+      "321.4 kg"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-35Ms",
+    "stem": "What is the slope of the line 4y = 3x + 1?",
+    "choices": [
+      "-4/3",
+      "-3/4",
+      "4/3",
+      "3/4"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-36Ms",
+    "stem": "Given a rectangle ABCD, AB = 2, BC = 5. Find the volume if the area is revolved about a line through side AD.",
+    "choices": [
+      "25π",
+      "20π",
+      "15π",
+      "30π"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-37Ms",
+    "stem": "A line has an x intercept of (5, 0) and y intercept of (0, 3). Find the volume generated by the area bounded in the first quadrant, revolved about x-axis.",
+    "choices": [
+      "47.12",
+      "52.89",
+      "65.24",
+      "78.54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-38Ms",
+    "stem": "A solid metal ball is immersed in a pail of paint and displaces 288π cm^3 of paint. What is the total area painted?",
+    "choices": [
+      "136π",
+      "72π",
+      "112π",
+      "144π"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-39Ms",
+    "stem": "The volume of a closed cylinder is numerically equal to its lateral area. The height is 10 m. Find the total surface area.",
+    "choices": [
+      "32π",
+      "48π",
+      "52π",
+      "60π"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-40Ms",
+    "stem": "A square ABCD has the following corners: A(0, 3), B(3, 0), C(0, -3), D(-3, 0). Find the volume if the square is revolved about the y-axis.",
+    "choices": [
+      "9π",
+      "15π",
+      "18π",
+      "6π"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-41Ms",
+    "stem": "A line has a slope of -5 and y-intercept of 4. What is the equation of the line?",
+    "choices": [
+      "y = 5x - 4",
+      "y = -5x + 4",
+      "y = 4x - 5",
+      "y = -4x + 5"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-42Ms",
+    "stem": "Two straight lines are drawn in a way that they will never meet even if extended indefinitely. If the equation of one of these lines is y = 5x - 3, which of the following must be the equation of the other line?",
+    "choices": [
+      "y = -3x + 5",
+      "y = 3x - 5",
+      "y = -5x - 3",
+      "y = 5x + 9"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-43Ms",
+    "stem": "Find the distance between (0, 0, 7) and (4, 1, 0).",
+    "choices": [
+      "7.458",
+      "6.334",
+      "9.325",
+      "8.124"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-44Ms",
+    "stem": "Find the area of a quadrilateral ABCD having the following consecutive vertices: A(-1,-1), B(3,1), C(0,3), D(1,-1).",
+    "choices": [
+      "18",
+      "9",
+      "12",
+      "16"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-45Ms",
+    "stem": "Find the vertex of the parabola y = (x + 1)^2 + 7.",
+    "choices": [
+      "(1, -7)",
+      "(7, -1)",
+      "(-1, 7)",
+      "(-7, 1)"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-46Ms",
+    "stem": "Find the vertex of the parabola y = x^2 + 8x + 63.",
+    "choices": [
+      "(1, 72)",
+      "(-2, 51)",
+      "(4, 111)",
+      "(-4, 47)"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-47Ms",
+    "stem": "What is the equation of a circle with center at (-3, 4) and passing through (3, 6).",
+    "choices": [
+      "x^2 + y^2 + 6x - 8y - 15 = 0",
+      "x^2 + y^2 - 6x + 8y - 19 = 0",
+      "x^2 + y^2 + 8x - 6y - 15 = 0",
+      "x^2 + y^2 - 6x - 8y - 19 = 0"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-48Ms",
+    "stem": "Where is the center of the circle x^2 + y^2 + 14x - 6y + 22 = 0?",
+    "choices": [
+      "(3, -7)",
+      "(-3, 7)",
+      "(-7, 3)",
+      "(7, -3)"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-49Ms",
+    "stem": "The frequency of a radio station is given by y = 8 sin 2x. What is the period of this wave?",
+    "choices": [
+      "2π",
+      "π",
+      "π/2",
+      "2π/3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-50Ms",
+    "stem": "Given the parametric equation: x = 1 + sin 2θ, y = 1 + cos θ + cos 2θ. Find the equation of the tangent at θ = 60°.",
+    "choices": [
+      "y = -2.598x + 3.848",
+      "y = 2.598x - 3.848",
+      "y = 1.563x - 4.527",
+      "y = -1.563x + 4.527"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-51Ms",
+    "stem": "The parametric equation of the curve is x = 2 cos^3 θ, y = 2 sin^3 θ. Find the equation of the normal to the curve at θ = π/4.",
+    "choices": [
+      "y - x = 0",
+      "y + x = 0",
+      "y - 2x = 0",
+      "y + 2x = 0"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-01M",
+    "stem": "Situation – Answer the following questions: The product of three negative numbers:",
+    "choices": [
+      "positive",
+      "imaginary",
+      "negative",
+      "can not be determined"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-01M",
+    "stem": "The quotient of negative and positive number:",
+    "choices": [
+      "negative",
+      "can not be determined",
+      "imaginary",
+      "positive"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-01M",
+    "stem": "The product of x and y where x < 0 and y ≠ 0.",
+    "choices": [
+      "negative",
+      "negative or positive",
+      "positive",
+      "can not be determined"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-02M",
+    "stem": "Situation – Answer the following problems: The average of A and B is 50 and the average of B and C is 80. Find C - A.",
+    "choices": [
+      "80",
+      "60",
+      "70",
+      "50"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-02M",
+    "stem": "The sum of eight numbers is 168. If 28 is eliminated, what is the new average?",
+    "choices": [
+      "22",
+      "20",
+      "18",
+      "24"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-02M",
+    "stem": "The average of 11 number is 330. If -10 is removed, what is the new average?",
+    "choices": [
+      "364",
+      "362",
+      "366",
+      "360"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-03M",
+    "stem": "Situation – y is inversely proportional to x and y = 14.3 when x = 0.6. What is value of the constant of proportionality?",
+    "choices": [
+      "8.58",
+      "9.64",
+      "6.87",
+      "5.72"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-03M",
+    "stem": "When x = 1.5, what is the value of y?",
+    "choices": [
+      "5.72",
+      "6.87",
+      "9.64",
+      "8.58"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-03M",
+    "stem": "When y = 2.5, what is the value of x?",
+    "choices": [
+      "2.478",
+      "4.225",
+      "5.245",
+      "3.432"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-04M",
+    "stem": "Situation – Solve the following motion problems: At 2:25 PM, an engineer and his girlfriend walks along Osmeña Boulevard for 30 minutes at a speed of 3 kph. They waited for a taxi for 10 minutes which brought them back to where they start at 3:15 PM. What was the average speed of the taxi?",
+    "choices": [
+      "4.75 kph",
+      "6.25 kph",
+      "9.00 kph",
+      "2.25 kph"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-04M",
+    "stem": "Obama and Romney are 20 km apart and walk towards each other. Obama walks at constant rate and is 2 kph faster than Romney. Romney's rate is 3 kph and started walking 15 minutes ahead of Obama. Find the distance walked by Obama when they meet.",
+    "choices": [
+      "7.031 km",
+      "14.587 km",
+      "12.031 km",
+      "6.524 km"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-04M",
+    "stem": "Bitoy and Boloy are 500 m apart. Bitoy walks 1 kph faster than Boloy and it tries to catch Boloy. If Boloy walks 3 kph, find the distance travelled by Bitoy when it catches Boloy.",
+    "choices": [
+      "2 km",
+      "1.5 km",
+      "2.5 km",
+      "3 km"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-04M",
+    "stem": "Heide and Hembler are running a 1000 m race. Heidi runs at 3 m/s and Hembler at 5 m/s. Hembler gave Heide a 15-second head start. How many seconds can Hembler overtake Heide?",
+    "choices": [
+      "22.5 s",
+      "15 s",
+      "26.5 s",
+      "18 s"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-05M",
+    "stem": "Situation – Solve the following problems: To make a ham and cheese sandwich you are given a choice of 3 kinds of ham, 5 kinds of cheese, and 2 kinds of bread. How many different sandwiches can you make?",
+    "choices": [
+      "30",
+      "10",
+      "15",
+      "45"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-05M",
+    "stem": "The seven-digit telephone number of a certain town starts with 350. If the last four digits cannot begin or end with zero, how many telephone numbers can be assigned?",
+    "choices": [
+      "7290",
+      "10000",
+      "6561",
+      "8100"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-05M",
+    "stem": "The captain of a chess team assigns himself to board 1. If there are six players (including the captain), how many ways can the team be assigned to the boards if there are six chess boards.",
+    "choices": [
+      "720",
+      "120",
+      "240",
+      "60"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-06M",
+    "stem": "Situation – Solve the following: tan (11π/6) =",
+    "choices": [
+      "√3/2",
+      "-√3/2",
+      "-√3/3",
+      "√3/3"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-06M",
+    "stem": "tan (-7π/6)",
+    "choices": [
+      "-√3/3",
+      "√3/2",
+      "√3/3",
+      "-√3/2"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-06M",
+    "stem": "tan π =",
+    "choices": [
+      "1",
+      "0",
+      "undefined",
+      "infinity"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-07M",
+    "stem": "Situation – Point A and B on opposite sides of a building are 124 m apart. The angles of depression from the top of the building to A and B are 54.3° and 68.5°, respectively. Determine the height of the building.",
+    "choices": [
+      "128.57 m",
+      "98.75 m",
+      "115.65 m",
+      "111.46 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-07M",
+    "stem": "Distance of point A from the building.",
+    "choices": [
+      "43.91 m",
+      "80.09 m",
+      "41.55 m",
+      "82.45 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-07M",
+    "stem": "Distance of point B from the building.",
+    "choices": [
+      "80.09 m",
+      "82.45 m",
+      "43.91 m",
+      "41.55 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-08M",
+    "stem": "Situation – From a building across, the angle of depression of the base of the front edifice is 23.5° and the angle of elevation of its top is 52.78°. The height of observation is 14 m. What is the height of the edifice?",
+    "choices": [
+      "56.39 m",
+      "68.74 m",
+      "76.58 m",
+      "42.23 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-08M",
+    "stem": "How far is the building from the said edifice?",
+    "choices": [
+      "38.7 m",
+      "24.8 m",
+      "45.6 m",
+      "32.2 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-08M",
+    "stem": "What is the angle of elevation of the top of the edifice from the foot of the building?",
+    "choices": [
+      "65.32°",
+      "78.96°",
+      "60.27°",
+      "54.75°"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-09M",
+    "stem": "Situation – Solve the following problems: A square pyramid has base width of 6 cm and altitude 18 cm. Find the volume.",
+    "choices": [
+      "216 cc",
+      "261 cc",
+      "248 cc",
+      "284 cc"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-09M",
+    "stem": "A rectangular pyramid has base dimensions 10 cm by 6 cm and altitude 16 cm. Find the volume of the pyramid.",
+    "choices": [
+      "420 cc",
+      "480 cc",
+      "360 cc",
+      "320 cc"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-09M",
+    "stem": "A spherical tank 4.5 m in diameter contains water to a depth of 3 m. Find the volume.",
+    "choices": [
+      "32.14 m^3",
+      "28.57 m^3",
+      "35.34 m^3",
+      "38.67 m^3"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-10M",
+    "stem": "Situation – Given the following points in Cartesian plane. Evaluate the indicated trigonometric function, where θ is the angle with the x-axis from the origin to the given point. (0, 4), tan θ =",
+    "choices": [
+      "1",
+      "2",
+      "0",
+      "undefined"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-10M",
+    "stem": "(4, 0), sin θ =",
+    "choices": [
+      "¼",
+      "undefined",
+      "0",
+      "½"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-10M",
+    "stem": "(6, -3), cos θ =",
+    "choices": [
+      "2√5/3",
+      "4√5/3",
+      "2√5/5",
+      "4√5/5"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-11M",
+    "stem": "Situation – Given the curve y = (π/4) sin (2t/3). What is the period of the curve?",
+    "choices": [
+      "3π/2",
+      "2π/3",
+      "3π",
+      "2π"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-11M",
+    "stem": "What is the frequency of the curve?",
+    "choices": [
+      "1/2π",
+      "1/3π",
+      "2/3π",
+      "3/2π"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-11M",
+    "stem": "Situation – Given the curve y = (π/4) sin (2t/3). What is the amplitude of the curve?",
+    "choices": [
+      "π/4",
+      "π/2",
+      "π/8",
+      "π/6"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-12M",
+    "stem": "Situation – Given circle x^2 + y^2 = 5 and ellipse 5x^2 + y^2 = 6. Which of the following is a point of intersection of the curves?",
+    "choices": [
+      "(2.179, 0.5)",
+      "(0.5, 2.179)",
+      "(0.8, 1.875)",
+      "(1.875, 0.8)"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-12M",
+    "stem": "What is the slope of the ellipse at the point of intersection?",
+    "choices": [
+      "±0.524",
+      "±1.358",
+      "±0.229",
+      "±1.147"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-12M",
+    "stem": "Find the acute angle of intersection.",
+    "choices": [
+      "36°",
+      "32°",
+      "34°",
+      "40°"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-13M",
+    "stem": "Situation – A body moves according to the equation S = u t + ½ a t^2 where S = 42 m when t = 2s and s = 144 m when t = 4s. Find \"a\"",
+    "choices": [
+      "12 m/s^2",
+      "15 m/s^2",
+      "18 m/s^2",
+      "24 m/s^2"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-13M",
+    "stem": "Find the velocity of the body when t = 1.2 s.",
+    "choices": [
+      "24 m/s",
+      "20 m/s",
+      "18 m/s",
+      "28 m/s"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-13M",
+    "stem": "Find s when t = 3 s.",
+    "choices": [
+      "85.5 m",
+      "92.3 m",
+      "78.5 m",
+      "63.4 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-14M",
+    "stem": "Situation – A particle of mass 100 MeV/c^2 moving with velocity of (2i - 5j + 6k) m/s strikes and sticks to a stationary particle of mass 40 MeV/c^2. Determine the x-component of the velocity after impact.",
+    "choices": [
+      "4.286 m/s",
+      "-2.548 m/s",
+      "-3.571 m/s",
+      "1.429 m/s"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-14M",
+    "stem": "The y-component of the velocity after impact.",
+    "choices": [
+      "-3.571 m/s",
+      "4.286 m/s",
+      "1.429 m/s",
+      "-2.548 m/s"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-14M",
+    "stem": "The z-component of the velocity after impact.",
+    "choices": [
+      "1.429 m/s",
+      "-3.571 m/s",
+      "4.286 m/s",
+      "-2.548 m/s"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-15M",
+    "stem": "Situation – A large batch of electric light bulbs have a mean time to failure of 2400 hours and the standard deviation of 60 hours for a batch of 4200 bulbs. How many light bulbs will likely last more than 2500 hours?",
+    "choices": [
+      "201",
+      "256",
+      "183",
+      "154"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-15M",
+    "stem": "What percentage of the total number of bulbs will likely last between 2200 hours to 2500 hours?",
+    "choices": [
+      "92.74%",
+      "90.28%",
+      "95.18%",
+      "96.35%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-15M",
+    "stem": "What is the probability that any light bulb will last for 2450 hours?",
+    "choices": [
+      "0.0054",
+      "0.0063",
+      "0.0031",
+      "0.0047"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-16M",
+    "stem": "Situation – A function is normally distributed with mean value of 8 and standard deviation of 2. What percentage of the observation will be greater than 5?",
+    "choices": [
+      "93.32%",
+      "85.64%",
+      "56.32%",
+      "75.41%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-16M",
+    "stem": "What percentage of the observation will be greater than 10?",
+    "choices": [
+      "13.26%",
+      "12.89%",
+      "15.87%",
+      "18.75%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "N12-16M",
+    "stem": "What percentage of the observation will have a value less than 3?",
+    "choices": [
+      "2.387%",
+      "0.968%",
+      "1.256%",
+      "0.621%"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-01Ps",
+    "stem": "The portion of the stress-strain curve beyond which the stress is no longer proportional to the strain?",
+    "choices": [
+      "Elastic limit",
+      "Ultimate stress",
+      "Proportional limit",
+      "Tensile stress"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-02Ps",
+    "stem": "Materials having the same composition at any point are termed as:",
+    "choices": [
+      "Homogeneous",
+      "isotropic",
+      "plastic",
+      "orthotropic"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-03Ps",
+    "stem": "Material property which enables it to undergo large permanent strains before failure?",
+    "choices": [
+      "Proportional limit",
+      "Strain hardening",
+      "Ductility",
+      "Creep"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-04Ps",
+    "stem": "Forces generated by a bodies in motion?",
+    "choices": [
+      "impulse",
+      "impact",
+      "dynamic",
+      "static"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-05Ps",
+    "stem": "The chandelier shown in Figure S15.632 weighs 2.5 kN/m and supported by six equally spaced steel cables. What is the tension in each cable?",
+    "choices": [
+      "3.14 kN",
+      "2.76 kN",
+      "2.41 kN",
+      "4.16 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-06Ps",
+    "stem": "The two guy wires shown in Figure M563.5 are supported by a concrete block. The tension in the wires are T1 = 3.5 kN and T2 = 7 kN. Find the minimum weight of the anchor block to prevent uplift with a factor of safety of 1.25.",
+    "choices": [
+      "7.24 kN",
+      "5.47 kN",
+      "4.08 kN",
+      "6.37 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-07Ps",
+    "stem": "The design of slab panels yields reinforcement of 10 mm ø bars at 110 mm on center spacing. If 12 mm ø bars are to be used instead, what would be the resulting spacing?",
+    "choices": [
+      "142 mm",
+      "135 mm",
+      "165 mm",
+      "158 mm"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-08Ps",
+    "stem": "A rectangular tied column is reinforced with eight 28-mm-diameter bars. If the bars are to be replaced with 25-mm, how many bars are required if it is to be distributed equally on all four sides of the column?",
+    "choices": [
+      "10",
+      "16",
+      "12",
+      "14"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-09Ps",
+    "stem": "Determine the moment at one end of a 6 m long fixed ended beam under uniform load of 25 kN/m.",
+    "choices": [
+      "-55 kN-m",
+      "-75 kN-m",
+      "-85 kN-m",
+      "-65 kN-m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-10Ps",
+    "stem": "The floor framing plan of a concrete building is shown in Figure CO-23-556. Beams AB, CD, and EF are 280 mm wide and 310 mm deep below the 110 mm thick slab. The floor is subjected to super imposed dead load of 1.6 kPa and live load of 5.2 kPa. Unit weight of concrete is 23.5 kN/m^3. Calculate the factored uniform load on beam CD.",
+    "choices": [
+      "36.8 kN/m",
+      "32.7 kN/m",
+      "45.2 kN/m",
+      "39.6 kN/m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-01P",
+    "stem": "Situation – Two guy wires are supported by a concrete block as shown in Figure M2.85.3. The tension in the wires are T1 = 14 kN and T2 = 7 kN. What is the resultant of the forces in the wires, in kN?",
+    "choices": [
+      "11.54",
+      "13.87",
+      "10.91",
+      "12.32"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-01P",
+    "stem": "At what angle will the resultant make with the horizontal?",
+    "choices": [
+      "58.78°",
+      "63.21°",
+      "54.44°",
+      "52.14°"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-01P",
+    "stem": "Minimum weight W to prevent uplift with a factor of safety of 1.25.",
+    "choices": [
+      "11.54 kN",
+      "11.09 kN",
+      "12.63 kN",
+      "10.24 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-02P",
+    "stem": "Situation – Before the frame is lifted by the cable AD, its position is as shown in Figure M56-201. At what angle with the horizontal will the frame tilt?",
+    "choices": [
+      "12.54°",
+      "9.46°",
+      "6.52°",
+      "15.74°"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-02P",
+    "stem": "What will be the tension in cable AB?",
+    "choices": [
+      "9.765 kN",
+      "6.975 kN",
+      "8.435 kN",
+      "7.542 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-02P",
+    "stem": "What will be the tension in cable AC?",
+    "choices": [
+      "7.542 kN",
+      "8.435 kN",
+      "9.765 kN",
+      "6.975 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-03P",
+    "stem": "Situation – The cylindrical tank shown in Figure M96.875 has a diameter D = 1.4 m and height of H = 3 m. The tank weighs 1500 N, θ = 60°. If the tank is full of water, find P so that the tank is at the verge of tipping over about point A.",
+    "choices": [
+      "12.08 kN",
+      "15.32 kN",
+      "10.14 kN",
+      "9.85 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-03P",
+    "stem": "If the tank is full of water, calculate the smallest coefficient of static friction that would allow tipping-over about A.",
+    "choices": [
+      "0.215",
+      "0.166",
+      "0.125",
+      "0.324"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-03P",
+    "stem": "If P = 7.5 kN, calculate the depth of water in the tank if the tank is at the verge of tipping over about point A.",
+    "choices": [
+      "2.116 m",
+      "1.825 m",
+      "1.542 m",
+      "1.249 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-04P",
+    "stem": "Situation – The cable shown in Figure M18-436 has length L = 16 m and sag d = 2 m. The cable supports a weight of w = 1500 N/m. What is the maximum tension in the cable?",
+    "choices": [
+      "22.61 kN",
+      "31.63 kN",
+      "26.83 kN",
+      "24.57 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-04P",
+    "stem": "What is the minimum tension in the cable?",
+    "choices": [
+      "24 kN",
+      "22 kN",
+      "32 kN",
+      "28 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-04P",
+    "stem": "If the allowable tension in the cable is 35 kN, what is the maximum value of w?",
+    "choices": [
+      "1578.4 N/m",
+      "1956.6 N/m",
+      "2145.9 N/m",
+      "2578.5 N/m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-05P",
+    "stem": "Situation – The canopy of a storage building shown in Figure 24-5-7 is spaced 2.5 m apart. The wind load normal to the roof surface is 1.44 kPa. Determine the total reaction at D.",
+    "choices": [
+      "3.6 kN",
+      "9.36 kN",
+      "8.64 kN",
+      "10.25 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-05P",
+    "stem": "The force in member CG.",
+    "choices": [
+      "5200 N",
+      "5480 N",
+      "6045 N",
+      "6240 N"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-05P",
+    "stem": "The force in member FG.",
+    "choices": [
+      "6045 N",
+      "5200 N",
+      "6240 N",
+      "5480 N"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-06P",
+    "stem": "Situation – The bolt shown in Figure S56-331 is subjected to a total tensile force of 70 kN. Determine the tensile stress in the body of the bolt in MPa.",
+    "choices": [
+      "68.65",
+      "61.72",
+      "55.42",
+      "76.35"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-06P",
+    "stem": "Determine the tensile stress at the root of the bolt in MPa.",
+    "choices": [
+      "96.54",
+      "82.14",
+      "87.04",
+      "101.25"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-06P",
+    "stem": "Determine the compressive stress at the head as the bolt bears on the surface to resist the tensile load.",
+    "choices": [
+      "34.22",
+      "32.15",
+      "35.29",
+      "38.63"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-07P",
+    "stem": "Situation – The double angle shown in Figure S602-854 is used as a strut to carry an axial tensile force of P. The base plate is fastened by four 22-mm-diameter bolt. The allowable tensile stress on bolts is 145 MPa, allowable shearing stress is 120 MPa, and allowable bearing stress between the bolt and base plate is 460 MPa. Assume the connection to the angles and the gusset plate does not govern the design. Find P based on shear and tension on bolts.",
+    "choices": [
+      "214 kN",
+      "228 kN",
+      "236 kN",
+      "247 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-07P",
+    "stem": "Find P based on bearing between bolts and base plate.",
+    "choices": [
+      "810 kN",
+      "750 kN",
+      "770 kN",
+      "840 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-07P",
+    "stem": "If P = 290 kN, what is the required bolt diameter?",
+    "choices": [
+      "18 mm",
+      "20 mm",
+      "25 mm",
+      "28 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-08P",
+    "stem": "Situation – A hollow steel pipe with external diameter of 200 mm has a length of 3 m. Use E = 200 GPa. See Figure S32-4-63. If Px = 300 kN, find the maximum internal diameter D, without exceeding a stress of 65 MPa in the pipe.",
+    "choices": [
+      "189.6 mm",
+      "193.5 mm",
+      "157.8 mm",
+      "184.7 mm"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-08P",
+    "stem": "If P = 350 kN, find the maximum internal diameter Di without exceeding a compressive strain of 0.0006 in the pipe.",
+    "choices": [
+      "190.5 mm",
+      "184.7 mm",
+      "195.7 mm",
+      "175.6 mm"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-08P",
+    "stem": "If the thickness of the pipe is 6 mm, find P without exceeding a stress of 95 MPa or a strain of 0.0004.",
+    "choices": [
+      "314.5 kN",
+      "292.5 kN",
+      "347.4 kN",
+      "368.4 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-09P",
+    "stem": "Situation – The rigid beam in Figure S87-632 is supported by a hinge at A and a steel cable at B. Determine the stress in the cable.",
+    "choices": [
+      "106 MPa",
+      "124 MPa",
+      "87 MPa",
+      "65 MPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-09P",
+    "stem": "Determine the elongation of the cable.",
+    "choices": [
+      "1.12 mm",
+      "0.74 mm",
+      "1.59 mm",
+      "1.87 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-09P",
+    "stem": "Determine the deflection at C.",
+    "choices": [
+      "1.23 mm",
+      "1.87 mm",
+      "2.65 mm",
+      "3.12 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-10P",
+    "stem": "Situation – The concrete pad shown in Figure C05-563 is subjected to uniform loads. Determine the maximum shear in the slab.",
+    "choices": [
+      "96 kN",
+      "48 kN",
+      "72 kN",
+      "112 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-10P",
+    "stem": "Determine the maximum moment in the slab.",
+    "choices": [
+      "84 kN-m",
+      "42 kN-m",
+      "76 kN-m",
+      "98 kN-m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-10P",
+    "stem": "Determine the location of zero bending moment measured from the left end of the slab.",
+    "choices": [
+      "2.5 m",
+      "1.75 m",
+      "3.5 m",
+      "3 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-11P",
+    "stem": "Situation – The cantilever beam shown in Figure M56-178 carries a uniformly distributed load of 2 kN/m. The beam is supported at its tip with tension rod whose tensile force is 2.5 kN. The beam is made of steel with moment of inertia of 5.2 × 10^6 mm^4 and E = 200 GPa. Determine the deflection at B before the tension rod was attached.",
+    "choices": [
+      "19.5 mm",
+      "25.4 mm",
+      "12.8 mm",
+      "16.3 mm"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-11P",
+    "stem": "Determine the moment at A after the tension rod was attached.",
+    "choices": [
+      "-1750 N-m",
+      "-750 N-m",
+      "-1250 N-m",
+      "-1500 N-m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-11P",
+    "stem": "Determine the maximum moment within the span.",
+    "choices": [
+      "1726.5 N-m",
+      "1562.5 N-m",
+      "1317.5 N-m",
+      "987.6 N-m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-12P",
+    "stem": "Situation – The 50 mm × 75 mm timber column shown in Figure S54-743 is subjected to an axial load of 500 N. It is required to determine the stresses along plane A-A that makes an angle of 15° with the horizontal. What is the normal stress on plane A-A?",
+    "choices": [
+      "0.348 MPa",
+      "0.187 MPa",
+      "0.124 MPa",
+      "0.254 MPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-12P",
+    "stem": "What is the shearing stress on plane A-A?",
+    "choices": [
+      "0.056 MPa",
+      "0.063 MPa",
+      "0.033 MPa",
+      "0.087 MPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-12P",
+    "stem": "Find the angle of plane A-A for maximum shearing stress.",
+    "choices": [
+      "90°",
+      "30°",
+      "60°",
+      "45°"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-13P",
+    "stem": "Situation – The frame shown in the figure is acted upon by wind load pressure of 1.44 kPa. These frames are spaced 4.5 m apart normal to the paper. Consider the roller support at B and the joint at D as pin. Determine the horizontal component of the reaction at A.",
+    "choices": [
+      "26.78 kN",
+      "21.56 kN",
+      "30.24 kN",
+      "28.65 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-13P",
+    "stem": "Determine the vertical component of the reaction at A.",
+    "choices": [
+      "18.52 kN",
+      "12.47 kN",
+      "15.12 kN",
+      "10.87 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-13P",
+    "stem": "Determine the horizontal component of the reaction at B.",
+    "choices": [
+      "9.5 kN",
+      "8.5 kN",
+      "10.7 kN",
+      "12.4 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-14P",
+    "stem": "Situation – Answer the following questions: Determine the degree of indeterminacy of the structure in Figure 2.541A.",
+    "choices": [
+      "determinate",
+      "indeterminate to the first degree",
+      "indeterminate to the second degree",
+      "indeterminate to the third degree"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-14P",
+    "stem": "Determine the degree of indeterminacy of the structure in Figure 2.541B.",
+    "choices": [
+      "determinate",
+      "indeterminate to the first degree",
+      "indeterminate to the second degree",
+      "indeterminate to the third degree"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-14P",
+    "stem": "Determine the degree of indeterminacy of the structure in Figure 2.541C.",
+    "choices": [
+      "determinate",
+      "indeterminate to the first degree",
+      "indeterminate to the second degree",
+      "indeterminate to the third degree"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-15P",
+    "stem": "Situation – The bolts in the lap joint shown in Figure S56-63 are 25 mm in diameter 27-mm-diameter holes. The plates are A36 steel with Fy = 250 MPa and Fu = 400 MPa. For this problem, x1 = 60 mm, x2 = 170 mm, x3 = 60 mm, t = 16 mm. The allowable stresses are: Bearing stress on projected area of the plates, Fp = 1.5 Fu, Tension on net area of plates, Ft = 0.5 Fu, Shear on plates, Fv = 0.3 Fu, Shear strength of bolt, Fv = 210 MPa. Determine the value of load P based on bolt shear.",
+    "choices": [
+      "619 kN",
+      "756 kN",
+      "542 kN",
+      "863 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-15P",
+    "stem": "Determine the value of load P based on bearing on projected area on plate.",
+    "choices": [
+      "1560 kN",
+      "1440 kN",
+      "1310 kN",
+      "1870 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-15P",
+    "stem": "Determine the value of load P based on block shear.",
+    "choices": [
+      "729.6 kN",
+      "632.4 kN",
+      "845.7 kN",
+      "542.1 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-16P",
+    "stem": "Situation – A simply supported beam has a span of 8 m and carries a total uniformly distributed load of 22 kN/m including self weight. Properties of the beam: br = 193 mm, d = 465 mm, tr = 19 mm, tw = 11 mm, A = 12,030 mm^2, Ix = 436.3 × 10^6 mm^4. Determine the maximum bending stress in MPa.",
+    "choices": [
+      "93.79",
+      "85.63",
+      "112.63",
+      "102.54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-16P",
+    "stem": "Determine the average shearing stress in the web, in MPa.",
+    "choices": [
+      "21.4",
+      "17.2",
+      "15.2",
+      "12.5"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-16P",
+    "stem": "Determine the maximum horizontal shearing stress in MPa.",
+    "choices": [
+      "15.24",
+      "23.54",
+      "26.33",
+      "19.59"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-17P",
+    "stem": "Situation – A column is made of steel pipe with an outside diameter of 280 mm. The base of the column rests on a circular base plate on concrete pedestal. The column is 3.6 m long and subjected to an axial load of 900 kN. The allowable compressive stress in steel pipe is 65 MPa and allowable bearing stress in concrete pedestal is 12 MPa. What is the required column thickness without exceeding its allowable compressive stress?",
+    "choices": [
+      "19.6 mm",
+      "14.2 mm",
+      "16.7 mm",
+      "17.5 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-17P",
+    "stem": "What is the required diameter of the steel base plate?",
+    "choices": [
+      "320 mm",
+      "330 mm",
+      "310 mm",
+      "300 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-17P",
+    "stem": "If the pipe is 10 mm thick, what is the effective slenderness ratio assuming that the column is hinged at both ends and sidesway is inhibited.",
+    "choices": [
+      "34.6",
+      "39.2",
+      "46.5",
+      "37.7"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-18P",
+    "stem": "Situation – The frame of a storage building is shown in Figure S68-4008. The columns are rigidly attached to the footing at the base and pin connected at the top. The weak axis of each column is braced at mid height about the y-axis. Sidesway is uninhibited about the x-axis (k = 1.2) but prevented about the y-axis (k = 1.0). Properties of W 350 × 79 column: A = 10,064 mm^2, Ix = 225 × 10^6 mm^4, d = 354 mm, Iy = 24 × 10^6 mm^4, br = 205 mm, rt = 55 mm, tr = 17 mm, Fy = 248 MPa, tw = 9.4 mm, E = 200 GPa, rx = 150 mm, ry = 49 mm. Loads in column BD: Axial load, P = 160 kN, Moment at the base, Mx = 25 kN-m, Moment at the top",
+    "choices": [
+      "119.3 MPa",
+      "124.6 MPa",
+      "131.4 MPa",
+      "105.7 MPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-18P",
+    "stem": "Determine the ratio of actual to allowable axial and bending stresses in column BD.",
+    "choices": [
+      "0.121",
+      "0.452",
+      "0.365",
+      "0.265"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-18P",
+    "stem": "If My = 20 kN-m, determine the total ratio of actual to allowable axial and bending stresses in column BD.",
+    "choices": [
+      "0.854",
+      "0.627",
+      "0.963",
+      "0.725"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-19P",
+    "stem": "Situation – A W12 × 28 is used as a crane runway girder as shown in Figure S602-854. The girder is on a simple span of 6 m. The crane wheel imparts a vertical load of P = 70 kN and a lateral load of H = 7 kN. A standard 420 N/m rail will be used. Use A36 steel. Allowable stresses area Fbx = 0.6 Fy and Fby = 0.75Fy. Properties of W12 × 28: Sx = 1,277 × 10^3 mm^3, Sy = 350 × 10^3 mm^3, Weight = 850 N/m, Fy = 248 MPa. Calculate the nearest value to the actual bending stress about the x-axis of the beam.",
+    "choices": [
+      "86.7 MPa",
+      "74.9 MPa",
+      "51.5 MPa",
+      "69.1 MPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-19P",
+    "stem": "Calculate the nearest value to the actual bending stress about the y-axis of the beam.",
+    "choices": [
+      "80.3 MPa",
+      "102.9 MPa",
+      "60.0 MPa",
+      "85.7 MPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-19P",
+    "stem": "What is the value of the interaction equation?",
+    "choices": [
+      "0.925",
+      "0.965",
+      "0.905",
+      "0.899"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-20P",
+    "stem": "Situation – The floor framing plan of a reinforced concrete structure is shown in Figure C201-55. Girders ADGJ, BEHK, and CFIL are 320 mm wide and 600 mm deep, beam DEF and GHI are 300 mm wide and 570 mm deep. The slab is 110 mm thick. Other than concrete weight, the floor is subjected to an additional (super imposed) dead load of 3 kPa and live load of 5.2 kPa. Unit weight of concrete is 23.5 kN/m^3. The column at E and at H are deleted, thus girder BEHK supports beam DEF and GHI at E and H respectively. Use the tributary area method. Determine the uniformly distributed service dead load on beam GHI in kN/m.",
+    "choices": [
+      "19.68",
+      "15.24",
+      "17.21",
+      "16.52"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-20P",
+    "stem": "Determine the uniformly distributed service live load on beam GHI in kN/m.",
+    "choices": [
+      "13",
+      "15",
+      "11",
+      "17"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-20P",
+    "stem": "Determine the factored concentrated load at H induced by beam GHI on girder BEHK in kN.",
+    "choices": [
+      "296",
+      "277",
+      "254",
+      "237"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-21P",
+    "stem": "Situation – The interior columns of a three-storey building are spaced 8 meters apart in both directions. See Figure S100-200. Given the following building loads: Roofload: Live = 0, Dead = 4.8 kPa. Floor loads: Dead = 7.2 kPa (the same in all floors), Live (2nd floor) = 5.7 kPa, Live (3rd floor) = 2.2 kPa. What is the total axial load on an interior column at the second floor due to service live load?",
+    "choices": [
+      "75.42 kN",
+      "63.54 kN",
+      "79.85 kN",
+      "82.45 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-21P",
+    "stem": "What is the total axial load on an interior column at the ground floor due to service live load?",
+    "choices": [
+      "270.81 kN",
+      "295.24 kN",
+      "241.25 kN",
+      "230.49 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-21P",
+    "stem": "What is the total dead load on an interior column at the ground floor level?",
+    "choices": [
+      "1365.3 kN",
+      "1228.8 kN",
+      "1542.7 kN",
+      "1154.5 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-22P",
+    "stem": "Situation – A 6 m long simply supported concrete beam has a width of 310 mm and an overall depth of 480 mm. The beam is reinforced with four (4) 28-mm-diameter bars at the bottom and two (2) 28-mm-diameter bars on top. Steel cover measure from the center of the bar is 70 mm. fc' = 28 MPa and fy = 415 MPa. Total dead load including beam weight is 22 kN/m. What is the depth of compression block in mm?",
+    "choices": [
+      "124.5",
+      "136.7",
+      "102.6",
+      "98.7"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-22P",
+    "stem": "What is the design strength of the section using a reduction factor of 0.90?",
+    "choices": [
+      "287.5 kN-m",
+      "368.4 kN-m",
+      "326.3 kN-m",
+      "345.6 kN-m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-22P",
+    "stem": "What additional concentrated live load can the beam carry at the midspan?",
+    "choices": [
+      "73.61 kN",
+      "85.64 kN",
+      "80.22 kN",
+      "65.42 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-23P",
+    "stem": "Situation – The T-beam shown resulted from monolithic construction of the beam and slab. The effective flange width is 900 mm and the uniform slab thickness is 120 mm. Width of beam is 300 mm, total depth of the T-section is 500 mm. The centroid of steel is 65 mm from extreme concrete fiber. Concrete strength fc' = 21 MPa and steel strength fy = 415 MPa. Use the strength design method. Find the depth of compression block \"a\" considering the effect of compression steel.",
+    "choices": [
+      "60 mm",
+      "69 mm",
+      "70 mm",
+      "76 mm"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-23P",
+    "stem": "Find the nominal moment strength Mn considering the effect of compression steel.",
+    "choices": [
+      "412.45 kN-m",
+      "411.93 kN-m",
+      "428.73 kN-m",
+      "387.45 kN-m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-23P",
+    "stem": "Find the nominal moment strength Mn neglecting the effect of compression steel.",
+    "choices": [
+      "354.72 kN-m",
+      "387.64 kN-m",
+      "426.32 kN-m",
+      "412.12 kN-m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-24P",
+    "stem": "Situation – The floor framing plane of a reinforced concrete is shown in Figure C100-21. Beam GHI is poured monolithically with the slab making it to be considered as T-beam. The columns are each 400 mm × 400 mm. The NSCP coefficients for continuous beam is also given in Figure CODE-523. For this problem, t = 110 mm, h = 480 mm, bw = 280 mm, fy = 415 MPa, fc' = 21 MPa. Determine the nominal moment strength of the beam at support?",
+    "choices": [
+      "365 kN-m",
+      "349 kN-m",
+      "321 kN-m",
+      "425 kN-m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-24P",
+    "stem": "Determine the nominal moment strength of the beam at midspan?",
+    "choices": [
+      "309 kN-m",
+      "335 kN-m",
+      "287 kN-m",
+      "386 kN-m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-24P",
+    "stem": "Determine the safe factored uniform load that the continuous beam can carry.",
+    "choices": [
+      "70.54 kN/m",
+      "65.42 kN/m",
+      "78.55 kN/m",
+      "86.33 kN/m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-24P",
+    "stem": "Using the maximum factored load, determine the required nominal shear strength at critical section near the support H.",
+    "choices": [
+      "295.4 kN",
+      "321.4 kN",
+      "238.4 kN",
+      "280.5 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-25P",
+    "stem": "Situation – The 400 mm × 600 mm column shown in Figure C56.38 is reinforced with eight 25-mm-diameter bars and 10-mm-diameter ties, both of which have fy = 415 MPa. Concrete strength fc' = 28 MPa. The column is subjected to a factored moment Mu = 300 kN-m, factored shear parallel to long side Vu = 380 kN, and factored axial force Nu = 430 kN. Use the simplified formula in computing the shear strength provided by concrete. If the nominal shear strength provided by lateral reinforcement is 220 kN, determine the maximum factored shear Vu that the column may be subjected.",
+    "choices": [
+      "342 kN",
+      "386 kN",
+      "369 kN",
+      "456 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-25P",
+    "stem": "If the ties are spaced at 200 mm on centers, determine the nominal shear that must be provided by concrete.",
+    "choices": [
+      "184 kN",
+      "157 kN",
+      "136 kN",
+      "198 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-25P",
+    "stem": "What is the required spacing of ties?",
+    "choices": [
+      "260 mm",
+      "240 mm",
+      "225 mm",
+      "255 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-26P",
+    "stem": "Situation – A concrete pedestal is supported by a 2.5 m × 3 m footing. The top of the pedestal is subjected to a vertical force of 2100 kN and a horizontal force of 120 kN parallel to the long side of footing. The footing is 0.6 m thick and its depth below the ground is 1.8 m. The top of the pedestal is 2.2 m from the top of the footing. Unit weights of concrete and soil are 23.5 kN/m^3 and 18 kN/m^3, respectively. Calculate the nearest value to the maximum soil pressure in kPa.",
+    "choices": [
+      "417",
+      "377",
+      "310",
+      "350"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-26P",
+    "stem": "Calculate the nearest value to the minimum soil pressure in kPa.",
+    "choices": [
+      "236",
+      "170",
+      "276",
+      "210"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-26P",
+    "stem": "What should be the minimum allowable soil pressure in kPa?",
+    "choices": [
+      "386",
+      "413",
+      "346",
+      "453"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-27P",
+    "stem": "Situation – The rectangular footing shown in Figure C57-550 is subjected to the following service axial loads and moments: Axial loads: PDL = 600 kN, PLL = 440 kN. Moment about x-axis: MDLx = 112 kN-m, MLLx = 50 kN-m. Moment about y-axis: MDLy = 160 kN-m, MLLy = 130 kN-m. The base of the footing is 2.2 m below the natural grade line. The soil above the footing has a unit weight of 17 kN/m^3 and the unit weight of concrete is 24 kN/m^3. Depth of footing is 700 mm. Determine the maximum soil pressure in kPa.",
+    "choices": [
+      "250.71",
+      "278.65",
+      "235.42",
+      "267.81"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-27P",
+    "stem": "Determine the minimum soil pressure in kPa.",
+    "choices": [
+      "18.54",
+      "21.78",
+      "12.56",
+      "9.49"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-27P",
+    "stem": "Determine the allowable soil bearing capacity in kPa.",
+    "choices": [
+      "320.58",
+      "310.11",
+      "347.86",
+      "335.68"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-28P",
+    "stem": "Situation – A dam is subjected to three forces (per meter length of dam) as shown in Figure S63.57. For this problem, the values are as follows: F1 = 710 kN, y1 = 4 m, F2 = 177 kN, y2 = 2 m, W = 2500 kN, x1 = 5 m, θ = 60°, b = 12 m. Determine the maximum foundation pressure at the base of the dam.",
+    "choices": [
+      "194.17 kPa",
+      "165.47 kPa",
+      "258.74 kPa",
+      "237.25 kPa"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-28P",
+    "stem": "Determine the minimum foundation pressure at the base of the dam.",
+    "choices": [
+      "258.74 kPa",
+      "237.25 kPa",
+      "165.47 kPa",
+      "194.17 kPa"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-28P",
+    "stem": "Determine the factor of safety against sliding if μ = 0.25.",
+    "choices": [
+      "1.58",
+      "1.16",
+      "2.32",
+      "3.07"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-29P",
+    "stem": "Situation – The section of a prestressed hollow core slab is shown in Figure C3.563.8. The slab is simply supported over a span of 7.5 m and carries a superimposed dead load of 1.5 kPa and live load of 2.1 kPa. The total pressing force is 550 kN at eccentricity of 38 mm. Assume loss of prestress of 20% at service loads. The properties of the section are as follows: Cross-sectional area = 120 × 10^3 mm^2, Moment of inertia, Ix = 312 × 10^6 mm^4, Weight of beam = 2.30 kPa. Determine the stress at the bottom fibers at L/4 due to total load, in MPa.",
+    "choices": [
+      "6.32",
+      "-8.62",
+      "1.29",
+      "-12.58"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-29P",
+    "stem": "Determine the stress at the top fibers at midspan due to total load, in MPa.",
+    "choices": [
+      "-10.22",
+      "-9.87",
+      "4.28",
+      "-11.61"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "PSAD",
+    "group_id": "N12-29P",
+    "stem": "What maximum uniform load (in kN/m) can the slab carry if the maximum allowable tensile stress in concrete is 3.2 MPa and the maximum allowable compressive stress is 18.5 MPa?",
+    "choices": [
+      "6.44",
+      "6.87",
+      "5.63",
+      "7.12"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-01Ms",
+    "stem": "Which of the following must be true for the product of (x + 1)(x)(x - 1) when x is a positive integer.",
+    "choices": [
+      "it is either odd or even",
+      "it is always divisible by 3",
+      "it can be negative",
+      "it always divisible by 4"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-02Ms",
+    "stem": "If p × q is divisible by r, which of the following cannot be correct?",
+    "choices": [
+      "p is a prime number",
+      "q is divisible by r",
+      "pq + r is odd and r is even",
+      "p is not divisible by r"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-03Ms",
+    "stem": "If a × b + c is odd, and a, b, and c are integers, which of the following must be correct if b is even.",
+    "choices": [
+      "b + c is odd",
+      "a + c is even",
+      "a + c is odd",
+      "a×b×c is positive"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-04Ms",
+    "stem": "If a < 0 and b and c are not equal to zero, what is the sign of b^4 × a^3 × c^2?",
+    "choices": [
+      "negative",
+      "positive",
+      "can be positive or negative",
+      "it depends"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-05Ms",
+    "stem": "Given that 3^(2a) × 11^b = 27^(4x) × 33^(2x), express a in terms of x.",
+    "choices": [
+      "2x",
+      "5x",
+      "7x",
+      "3x"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-06Ms",
+    "stem": "If logb x = y, then",
+    "choices": [
+      "b^x = y",
+      "b^y = x",
+      "x^y = b",
+      "x^b = y"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-07Ms",
+    "stem": "Mary has a collection of 120 stamps and plans to have x stamps per day for y weeks. How many stamps will she have?",
+    "choices": [
+      "120 + 7xy",
+      "120 + xy",
+      "120 + xy/7",
+      "120/7 + 7xy"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-08Ms",
+    "stem": "In a certain fastfood, Karla ordered 4 fried chickens and 3 iced tea and paid P615.00. Kim ordered 3 fried chickens and 5 iced tea and paid P585.00. What is the price of one fried chicken?",
+    "choices": [
+      "P 150.00",
+      "P 60.00",
+      "P120.00",
+      "P 45.00"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-09Ms",
+    "stem": "A certain substance can be expressed by the equation s = a + bx where s = 110 when x = 120 and s = 130 when x = 145. Find the value of b.",
+    "choices": [
+      "0.80",
+      "0.60",
+      "1.20",
+      "0.40"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-10Ms",
+    "stem": "The molar heat capacity of a solid compound is given by the equation c = a + bT, where a and b are constants. When c = 52, T = 100 and when c = 172, T = 400. Determine the value of a.",
+    "choices": [
+      "0.8",
+      "10",
+      "0.4",
+      "12"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-11Ms",
+    "stem": "When Kirchhoff's laws are applied to a certain electrical circuit the currents I1 and I2 are connected by the following equations: 27 = 1.5I1 + 8(I1 - I2), -26 = 2I2 - 8(I1 - I2). Find the current I2.",
+    "choices": [
+      "2",
+      "-1",
+      "-2",
+      "1"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-12Ms",
+    "stem": "The resistance R ohms of copper wire at t°C is given by R = Ro(1 + αt), where Ro is the resistance at 0°C and α is the temperature coefficient of resistance. If R = 25.44Ω at 30°C and R = 32.17Ω at 100°C, find α.",
+    "choices": [
+      "0.00426",
+      "0.00264",
+      "0.00624",
+      "0.00462"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-01M",
+    "stem": "Situation – A car moves according to the equation S = u t + ½ a t^2, where S is the distance in meters, u is the initial velocity in m/s, a is the acceleration in m/s^2, and t is the time in seconds. Given that when t = 3 sec, S = 96.25 m and when t = 10 sec, S = 291.667 m, determine the following: The value of u in kph.",
+    "choices": [
+      "120",
+      "110",
+      "100",
+      "130"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-01M",
+    "stem": "The value of \"a\" in kph/sec.",
+    "choices": [
+      "6",
+      "-6",
+      "3",
+      "-3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-01M",
+    "stem": "The value of S when t = 15 s.",
+    "choices": [
+      "426.67 m",
+      "385 m",
+      "406.25 m",
+      "352.33 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-13Ms",
+    "stem": "The motion of a particle moving along a straight line is given by the equation S = 4t^3 - t^4. What is the maximum displacement of the particle during the interval -1 ≤ t ≤ 4.",
+    "choices": [
+      "16",
+      "27",
+      "36",
+      "42"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-14Ms",
+    "stem": "A poultry farm has only chickens and pigs. When the manager of the poultry counted the heads of the stock in the farm, the number totalled up to 20. However, when the number of legs was counted, the number totalled up 540. How many chickens were there in the farm?",
+    "choices": [
+      "70",
+      "130",
+      "120",
+      "80"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-02M",
+    "stem": "Situation – Given four numbers such that the sum of the first, second, and third exceeds the fourth by 6, the sum of the squares of third and fourth exceeds the sum of the squares of first and second by 36, the sum of the product of first and second to the product of third and fourth is 42, and the cube of the fourth equals the sum of the cubes of the other numbers. What is the largest number?",
+    "choices": [
+      "5",
+      "7",
+      "8",
+      "6"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-02M",
+    "stem": "What is the smallest number?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-02M",
+    "stem": "What is the average of the four numbers?",
+    "choices": [
+      "6.5",
+      "4.5",
+      "5.5",
+      "7.5"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-15Ms",
+    "stem": "The sum of two integers multiplied by the sum of their squares is 3667, and their difference multiplied by the difference of their squares is 475. Find the product of the two numbers.",
+    "choices": [
+      "72",
+      "64",
+      "84",
+      "96"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-16Ms",
+    "stem": "A new civil engineer invested at SMPH (SM Prime Holdings) which has an annual gain of 10% and at ALI (Ayala Land) which has an annual gain of 20%. If his total annual gain in the two investments is 14%, which of the following statements is true?",
+    "choices": [
+      "the amount invested at SMPH is equal to that in ALI",
+      "the amount invested at SMPH is greater than that in ALI",
+      "the amount invested at SMPH is less than that in ALI",
+      "None of these statements is true"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-17Ms",
+    "stem": "Three-fourth of the students in the class have an average IQ of 120 and the rest have an average IQ of 160. What is the average IQ in the class?",
+    "choices": [
+      "140",
+      "150",
+      "130",
+      "125"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-18Ms",
+    "stem": "A player averages 140 points in his last 8 games. His total average including his last 2 games is increased by 10%. What is his average in the last two games?",
+    "choices": [
+      "110",
+      "220",
+      "105",
+      "210"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-19Ms",
+    "stem": "A salesman gets P10,000 commission on a sale of a certain item. This amount raised his average commission by P1,500. If his new average commission is P4,000, what is his total commission?",
+    "choices": [
+      "P30000",
+      "P15000",
+      "P25000",
+      "P20000"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-20Ms",
+    "stem": "Given three positive numbers a, b, and c such that a, b, c are in geometric progression. Which of the following is correct?",
+    "choices": [
+      "2 log b = log a - log c",
+      "2 log b = log (a + c)",
+      "2 log b = log a × log c",
+      "2 log b = log a + log c"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-21Ms",
+    "stem": "What is the sum of the infinite geometric progression 24, 18, 13.5, ...?",
+    "choices": [
+      "112",
+      "81",
+      "72",
+      "96"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-22Ms",
+    "stem": "What is the sum of the first six terms of the progression 15, -60, 240, ...?",
+    "choices": [
+      "-12285",
+      "3075",
+      "49155",
+      "-196605"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-23Ms",
+    "stem": "What is the 15th term of the progression 12, 18.5, 25, ...?",
+    "choices": [
+      "109.5",
+      "96.5",
+      "103",
+      "106"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-24Ms",
+    "stem": "A sequence of numbers is described by the equation an = 3 × 1.5^n. What is the common ratio?",
+    "choices": [
+      "33/5",
+      "27/8",
+      "26/7",
+      "28/7"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-25Ms",
+    "stem": "A merchant purchased a pen at wholesale price of P75.00 and sells it at 30% markup. If a discount of 20% is given to a customer, how much profit can the merchant get?",
+    "choices": [
+      "P3.00",
+      "P7.50",
+      "P4.50",
+      "P5.00"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-26Ms",
+    "stem": "Maria can do a job in 6 hours. Jhul can do the same job in 4 hours more while Vince can do it in twice the time. How many hours can they finish the job if they work together from start?",
+    "choices": [
+      "2.758",
+      "2.857",
+      "2.785",
+      "2.587"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-27Ms",
+    "stem": "Without repeating any letter, how many three-letter words can be made out of the letters in the word DOUBLE. Note: The word may not have any meaning.",
+    "choices": [
+      "120",
+      "60",
+      "80",
+      "90"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-28Ms",
+    "stem": "The following books are available on the shelf. Three Fluid Mechanics book, two Structural book, four Mathematics, and two Geotechnical book. John came and took one Fluid Mechanics and one Mathematics. Peter came and select a book at random. What is the probability that he selects a Mathematics book?",
+    "choices": [
+      "1/3",
+      "2/9",
+      "4/9",
+      "1/9"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-29Ms",
+    "stem": "The observed error \"E\" in a series of measurements is normally distributed with mean of 0. Approximately 2% of the error are -10 or less. Approximately what fraction of the measurements have errors between 0 and 5.",
+    "choices": [
+      "0.287",
+      "0.348",
+      "0.425",
+      "0.397"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-30Ms",
+    "stem": "Which of the following sets gives the meaning of (5,8]?",
+    "choices": [
+      "{x ∈ R | 5 ≤ x < 8}",
+      "{x ∈ R | 5 < x ≤ 8}",
+      "{x ∈ R | 5 < x < 8}",
+      "{x ∈ R | 5 ≤ x ≤ 8}"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-31Ms",
+    "stem": "Given the following set of numbers arranged from smallest to largest: {1, x, 4, 6, x^2}. If the range of range of the set is 8, what is the average of the set?",
+    "choices": [
+      "4.8",
+      "4.2",
+      "4.6",
+      "5.2"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-32Ms",
+    "stem": "If the domain of y = 3x + 2 is -3 ≤ x ≤ 5, which of the following is not in the range of y?",
+    "choices": [
+      "-5",
+      "-1",
+      "4",
+      "18"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-33Ms",
+    "stem": "Given that a < b < 0 < c < d, what is the sign of abc/d?",
+    "choices": [
+      "it depends",
+      "can be positive or negative",
+      "negative",
+      "positive"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-34Ms",
+    "stem": "i^61 =",
+    "choices": [
+      "-i",
+      "i",
+      "1",
+      "-1"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-35Ms",
+    "stem": "Which of the following is equivalent to √-3 × √-1/27 ?",
+    "choices": [
+      "1/9",
+      "1/3",
+      "imaginary",
+      "-1/3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-03M",
+    "stem": "Situation – For the following questions, θ is the angle from the origin. Which quadrant/s is sec θ < 0?",
+    "choices": [
+      "III & IV",
+      "III",
+      "II",
+      "II & III"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-03M",
+    "stem": "Which quadrant/s is tan θ < 0?",
+    "choices": [
+      "IV",
+      "II & IV",
+      "II",
+      "III"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-03M",
+    "stem": "Which quadrant/s is csc θ < 0?",
+    "choices": [
+      "III & IV",
+      "II & III",
+      "IV",
+      "III"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-04M",
+    "stem": "Situation – Determine which quadrant does the terminal side of the angle for the following conditions: tan θ > 0 and sin θ < 0.",
+    "choices": [
+      "III quadrant",
+      "I quadrant",
+      "II quadrant",
+      "IV quadrant"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-04M",
+    "stem": "cos θ > 0 and csc θ < 0.",
+    "choices": [
+      "I quadrant",
+      "II quadrant",
+      "IV quadrant",
+      "III quadrant"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-04M",
+    "stem": "sec θ < 0 and cot θ < 0.",
+    "choices": [
+      "IV quadrant",
+      "I quadrant",
+      "III quadrant",
+      "II quadrant"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-36Ms",
+    "stem": "Given a triangle ABC such that A = 40°, a = 10 m, and b = 15 m. How many possible triangles can be formed?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-37Ms",
+    "stem": "Two sides of a triangle measures 8 m and 12 m and the angle opposite the 8-m side is 30°. What is the measure of the third side of the triangle?",
+    "choices": [
+      "12.3 m",
+      "6.2 m",
+      "5.1 m",
+      "9.6 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-38Ms",
+    "stem": "Given a triangle whose sides are 10 cm, 24 cm, and 26 cm. Find the perimeter of a smaller triangle that is similar to the given triangle whose shortest side is 6 cm.",
+    "choices": [
+      "32",
+      "48",
+      "100",
+      "36"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-39Ms",
+    "stem": "From a window 7.4 m above the ground, the angle of elevation of the top of a nearby edifice is 54.25° and the angle of depression of its base is 21.42°. What is the height of the edifice?",
+    "choices": [
+      "36.5 m",
+      "33.6 m",
+      "34.7 m",
+      "32.1 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-40Ms",
+    "stem": "Two stations A and B were setup to determine the height of a mountain. The angles of elevation of the top of the mountain measured from stations A and B were 26.5° and 31.25°, respectively. Station A is 75 m above station B. Station B is 450 m closer to the mountain. If the elevation of station A is 563.54 m, what is the elevation of the top of the mountain in meters?",
+    "choices": [
+      "2166.93",
+      "2214.65",
+      "2114.78",
+      "2365.45"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-05M",
+    "stem": "Situation – Point A and B on opposite sides of a building are 320 m apart. The angles of depression from the top of the building to A and B are 18.5° and 24.6°, respectively. Determine the height of the building.",
+    "choices": [
+      "52.41 m",
+      "96.32 m",
+      "76.35 m",
+      "61.86 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-05M",
+    "stem": "Distance of point A from the building.",
+    "choices": [
+      "154.78 m",
+      "135.12 m",
+      "114.78 m",
+      "184.88 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-05M",
+    "stem": "Distance of point B from the building.",
+    "choices": [
+      "184.88 m",
+      "114.78 m",
+      "135.12 m",
+      "154.78 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-41Ms",
+    "stem": "From the top of 120-m tall tower, the angle of depression of point A south of the tower is 31.3° and the angle of depression point B east of the tower is 54.2°. Points A and B are on the same elevation at the base of the tower. Find the distance AB.",
+    "choices": [
+      "215.5 m",
+      "236.7 m",
+      "198.3 m",
+      "243.1 m"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-42Ms",
+    "stem": "The sides of two rectangular posters are in the ratio 5:4. If the bigger poster has an area of 50 square feet, what is the area of the smaller poster?",
+    "choices": [
+      "40 ft^2",
+      "24 ft^2",
+      "16 ft^2",
+      "32 ft^2"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-43Ms",
+    "stem": "Given a circle such that a chord of length 12 cm is 8 cm from its center. What is the area of the circle?",
+    "choices": [
+      "120π cm^2",
+      "90π cm^2",
+      "100π cm^2",
+      "80π cm^2"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-44Ms",
+    "stem": "Find the area of a regular hexagon if the width across the flat is 70 cm.",
+    "choices": [
+      "4,243.52 cm^2",
+      "4,635.87 cm^2",
+      "3,875.45 cm^2",
+      "4,498.63 cm^2"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-45Ms",
+    "stem": "Find the area of regular octagon of side 30 cm.",
+    "choices": [
+      "4,345.58 cm^2",
+      "4,698.54 cm^2",
+      "4,105.78 cm^2",
+      "3,856.36 cm^2"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-46Ms",
+    "stem": "The axes of an elliptical track are 200 m and 100 m, respectively. Find the perimeter of the track in meters.",
+    "choices": [
+      "523.45",
+      "496.73",
+      "463.87",
+      "632.58"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-47Ms",
+    "stem": "If the radius \"r\" of a sphere is increased by \"x\", then its surface area is increased by:",
+    "choices": [
+      "4πrx + 8πx^2",
+      "8πrx + 4πx^2",
+      "πrx + πx^2",
+      "4π(r + x)^2"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-48Ms",
+    "stem": "What is the volume of a cube if its total surface area is 24x^2?",
+    "choices": [
+      "8 x^3",
+      "4 x^3",
+      "8 x^(3/2)",
+      "4 x^(3/2)"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-49Ms",
+    "stem": "A cube of side 2 cm is to be made. However, due to erroneous measurement the actual side of the cube is 2.1 cm. What is the relative error in the volume of the cube.",
+    "choices": [
+      "16.32%",
+      "14.58%",
+      "13.62%",
+      "15.76%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-50Ms",
+    "stem": "A solid spherical steel ball of radius 6 cm is placed inside a 20-cm diameter cylinder containing 15 cm deep of water. How deep is the water in the cylinder after immersion?",
+    "choices": [
+      "19.5 cm",
+      "17.9 cm",
+      "18.3 cm",
+      "17.2 cm"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-06M",
+    "stem": "Situation – Determine the lateral area in cm^2 of the following right pyramid: Base is regular octagon of side 20 cm and altitude of 30 cm.",
+    "choices": [
+      "3256.32",
+      "2856.21",
+      "3080.62",
+      "2564.58"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-06M",
+    "stem": "Base is regular hexagon of side 20 cm and altitude of 30 cm.",
+    "choices": [
+      "2078.46",
+      "2236.54",
+      "1863.54",
+      "2174.56"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-06M",
+    "stem": "Base is regular hexagon of side 30 cm and slant height of 50 cm.",
+    "choices": [
+      "4200",
+      "4500",
+      "3300",
+      "4400"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-07M",
+    "stem": "Situation – A sphere having a volume of 2000 cm^3 is cut by a plane 4 cm from center. What is the area of the small circle cut by the plane?",
+    "choices": [
+      "187.54 cm^2",
+      "163.74 cm^2",
+      "125.47 cm^2",
+      "141.65 cm^2"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-07M",
+    "stem": "What is the volume of the smaller segment cut by the plane?",
+    "choices": [
+      "352.45 cm^3",
+      "299.36 cm^3",
+      "254.78 cm^3",
+      "368.87 cm^3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-07M",
+    "stem": "What is the curved surface area of the smaller segment cut by the plane?",
+    "choices": [
+      "187.4 cm^2",
+      "196.5 cm^2",
+      "145.2 cm^2",
+      "247.9 cm^2"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-51Ms",
+    "stem": "What is the slope of a line connecting P1(-20, 35) and P2(18, -38).",
+    "choices": [
+      "-2.325",
+      "-0.875",
+      "-1.921",
+      "-1.524"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-52Ms",
+    "stem": "The curve y = x^2 + 1 is symmetric with respect to:",
+    "choices": [
+      "the origin",
+      "x & y - axes",
+      "x - axis",
+      "y - axis"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-08M",
+    "stem": "Situation – Given the circle, x^2 + y^2 + 6x - 10y - 25 = 0. Determine the center of the circle.",
+    "choices": [
+      "(-3, 5)",
+      "(-5, 3)",
+      "(3, -5)",
+      "(5, -3)"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-08M",
+    "stem": "The radius of the circle.",
+    "choices": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-08M",
+    "stem": "The circumference of the circle.",
+    "choices": [
+      "10π",
+      "4π",
+      "8π",
+      "6π"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-53Ms",
+    "stem": "The graph of the function f(x) = x^2 is translated 3 units to the left and reflected over the x-axis. If the resulting function is represented by g(x), what is the value of g(5)?",
+    "choices": [
+      "-64",
+      "-9",
+      "-49",
+      "-54"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-09M",
+    "stem": "Situation – Given the curve y = (π/2) sin (3t/2). What is the period of the curve?",
+    "choices": [
+      "3π/2",
+      "2π/3",
+      "4π",
+      "4π/3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-09M",
+    "stem": "What is the frequency of the curve?",
+    "choices": [
+      "1/4π",
+      "1/3π",
+      "3/4π",
+      "4/3π"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-09M",
+    "stem": "What is the amplitude of the curve?",
+    "choices": [
+      "π/4",
+      "π/2",
+      "π/8",
+      "π/6"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-54Ms",
+    "stem": "A body moves along a straight line according to the equation x(t) = 4t^5 - 20t^4. At what value of \"t\" when the particle reverses its motion?",
+    "choices": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-55Ms",
+    "stem": "The motion of a body along a straight line is defined by the following equation: x(t) = t^3 - 8t^2 - 12t - 5. At what range of \"t\" is the distance increasing?",
+    "choices": [
+      "-2/3 < t < 6",
+      "6 > t < -2/3",
+      "t > 6 only",
+      "6 < t or t < -2/3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-56Ms",
+    "stem": "An area is bounded by the curve y = 8/(x^2 + 4), the x-axis, and the lines x + 2 = 0 and x - 2 = 0. Find the area bounded.",
+    "choices": [
+      "π/2",
+      "4π",
+      "π",
+      "2π"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-10M",
+    "stem": "Situation – Given a parabola x^2 + 4y - 48 = 0 and line x - 2y + 12 = 0. Determine the vertex of the parabola.",
+    "choices": [
+      "(0, 15)",
+      "(0, 9)",
+      "(0, 6)",
+      "(0, 12)"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-10M",
+    "stem": "A point of intersection of the parabola and line.",
+    "choices": [
+      "(6, -3)",
+      "(-6, 3)",
+      "(4, -8)",
+      "(4, 3)"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-10M",
+    "stem": "The area bounded by the parabola and line.",
+    "choices": [
+      "41.67",
+      "43.33",
+      "39.33",
+      "36.67"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-11M",
+    "stem": "Situation – Given the following parabolas: Parabola 1: x^2 - 8x + 16y - 176 = 0, Parabola 2: x^2 - 4x - 12y - 32 = 0. Which of the following gives the ordinate of one of the points of intersection of the parabolas?",
+    "choices": [
+      "-6.25",
+      "8.32",
+      "12.95",
+      "5.24"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-11M",
+    "stem": "Find the area bounded by the given parabolas.",
+    "choices": [
+      "199.95",
+      "163.87",
+      "214.57",
+      "265.25"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-11M",
+    "stem": "Find the moment of inertia with respect to the x-axis of the area bounded by the given parabolas.",
+    "choices": [
+      "6824",
+      "1426",
+      "7263",
+      "7074"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-57Ms",
+    "stem": "The population of mosquitoes in a certain area increases at a rate proportional to the current population, and in the absence of other factors, the population doubles every two days. If there are 20,000 mosquitoes in the area initially, how many mosquitoes are there after 8 days?",
+    "choices": [
+      "240,000",
+      "320,000",
+      "160,000",
+      "480,000"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-58Ms",
+    "stem": "The amount of germs in a certain culture increases at a rate proportional to the number present. If the amount of germs doubles every year, how many years will the number of germs triple?",
+    "choices": [
+      "1.952",
+      "4.214",
+      "2.568",
+      "1.585"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-12M",
+    "stem": "Situation – A printing machine is bought at P1.5 million and is estimated to have a salvage value of P100,000 after 500,000 copies. The annual cost of renting the space for the business is P80,000, power cost per copy is P1.50, and maintenance and paper cost per copy is P4.00. The expected annual production of the machine is 100,000 copies. Annual interest is 15%. Determine the annual operation and maintenance cost of the machine.",
+    "choices": [
+      "P680,000",
+      "P630,000",
+      "P560,000",
+      "P720,000"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-12M",
+    "stem": "Determine the annual depreciation of the machine.",
+    "choices": [
+      "P207,642",
+      "P256,325",
+      "P321,478",
+      "P187,445"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "AMSTHEC",
+    "group_id": "M13-12M",
+    "stem": "Determine the production cost per copy.",
+    "choices": [
+      "P15.68",
+      "P21.54",
+      "P10.63",
+      "P12.89"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-01H",
+    "stem": "Situation – A vat is 9 m long and 4 m high have vertical ends in the form of a trapezoid 3 m at the bottom, 5 m on top, and 4 m high. The vat is full of paint having specific gravity of 0.85. Compute the weight of the paint in kN.",
+    "choices": [
+      "1321",
+      "1952",
+      "1201",
+      "1268"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-01H",
+    "stem": "Compute the total force exerted by the paint on the bottom of the vat, in kN.",
+    "choices": [
+      "936.8",
+      "988.9",
+      "900.6",
+      "854.7"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-01H",
+    "stem": "Compute the total force exerted by the paint on one of the trapezoidal end of the vat, in kN.",
+    "choices": [
+      "224.7",
+      "208.4",
+      "263.8",
+      "244.6"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-02H",
+    "stem": "Situation – A stone weighs 7 N when immersed in water and 8 N when immersed in alcohol having a specific gravity of 0.80. Unit weight of water is 9.81 kN/m^3. What is the volume of the stone?",
+    "choices": [
+      "5.245 × 10^-4 m^3",
+      "5.097 × 10^-4 m^3",
+      "4.875 × 10^-4 m^3",
+      "5.875 × 10^-3 m^3"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-02H",
+    "stem": "What is the weight of the stone?",
+    "choices": [
+      "12 N",
+      "13 N",
+      "10 N",
+      "11 N"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-02H",
+    "stem": "What is the density of the stone?",
+    "choices": [
+      "2400 kg/m^3",
+      "2200 kg/m^3",
+      "2100 kg/m^3",
+      "2300 kg/m^3"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-03H",
+    "stem": "Situation – A piece of wood having a specific gravity of 0.60 is floating in a liquid having a specific gravity of 0.80. What fraction of the total volume of the metal is below the liquid surface?",
+    "choices": [
+      "75%",
+      "50%",
+      "25%",
+      "85%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-03H",
+    "stem": "If the volume of the object above the liquid surface is 0.032 m^3, what is the total weight of the object?",
+    "choices": [
+      "704.5 N",
+      "936.6 N",
+      "758.4 N",
+      "824.5 N"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-03H",
+    "stem": "What vertical force will keep the object fully submerged in the liquid?",
+    "choices": [
+      "325.7 N",
+      "251.14 N",
+      "214.9 N",
+      "298.7 N"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-04H",
+    "stem": "Situation – A cylindrical tank, 1.1 m in diameter and 2.4 m high weighs 3825 Newtons. The tank is to float in water with a draft of 1.9 m. Unit weight of lead is 110 kN/m^3. How much lead is required if it is attached at the outside bottom of the tank?",
+    "choices": [
+      "14.574 kN",
+      "13.856 kN",
+      "13.248 kN",
+      "16.325 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-04H",
+    "stem": "How much lead is required if it is placed inside the tank?",
+    "choices": [
+      "15.623 kN",
+      "12.248 kN",
+      "13.888 kN",
+      "13.241 kN"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-04H",
+    "stem": "In part 2, how much additional weight of lead is required to make the cylinder fully submerged in water?",
+    "choices": [
+      "4.986 kN",
+      "4.215 kN",
+      "5.214 kN",
+      "4.661 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-05H",
+    "stem": "Situation – A cylindrical tank, 1.2 m in diameter and 2.4 m high weighs 3825 Newtons. The tank is to float in water with a draft of 1.8 m. Unit weight of lead is 110 kN/m^3. How much lead is required if it is attached at the outside bottom of the tank?",
+    "choices": [
+      "17.73 kN",
+      "18.25 kN",
+      "16.15 kN",
+      "15.87 kN"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-05H",
+    "stem": "How much lead is required if it is placed inside the tank?",
+    "choices": [
+      "15.87 kN",
+      "16.15 kN",
+      "18.25 kN",
+      "17.73 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-05H",
+    "stem": "In part 2, how much additional weight of lead is required to make the cylinder fully submerged in water?",
+    "choices": [
+      "7.124 kN",
+      "6.421 kN",
+      "6.864 kN",
+      "6.657 kN"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-06H",
+    "stem": "Situation – The triangular V-notch channel shown in the Figure carries a flow of 10 m^3/s. assume n = 0.013. Calculate the nearest value to the critical depth of flow in meters.",
+    "choices": [
+      "1.635",
+      "1.554",
+      "1.402",
+      "1.117"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-06H",
+    "stem": "Calculate the nearest value to the critical velocity of flow in m/s.",
+    "choices": [
+      "2.76",
+      "3.21",
+      "2.47",
+      "2.00"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-06H",
+    "stem": "Calculate the nearest value to the critical slope.",
+    "choices": [
+      "0.0032",
+      "0.0015",
+      "0.0023",
+      "0.0028"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-07H",
+    "stem": "Situation – A rectangular canal is 5.2 meters wide and 1.2 meters depth. The canal is laid on a uniform slope of 0.001 and roughness coefficient is 0.012. Calculate the discharge in the canal, in m^3/s.",
+    "choices": [
+      "14.42",
+      "15.24",
+      "13.68",
+      "14.95"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-07H",
+    "stem": "What savings in lining per meter length of canal could have been effected if the most efficient rectangular section were used for the same discharge and slope?",
+    "choices": [
+      "0.662 m^2",
+      "0.524 m^2",
+      "0.754 m^2",
+      "0.869 m^2"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-07H",
+    "stem": "What savings in earth excavation per meter length of canal could have been effected if the most efficient rectangular section were used for the same discharge and slope?",
+    "choices": [
+      "0.428 m^3",
+      "0.284 m^3",
+      "0.325 m^3",
+      "0.223 m^3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-08H",
+    "stem": "Situation – A weir installed at the end of a rectangular channel controls the flow of water. The rate of flow is 0.32 m^3/s. If the error the measuring head is 0.0028 m, determine the error in the measured flow if: The weir is a suppressed rectangular with L = 5 m.",
+    "choices": [
+      "3.54%",
+      "3.21%",
+      "4.21%",
+      "3.97%"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-08H",
+    "stem": "The weir is a Cipolletti with L = 4.2 m.",
+    "choices": [
+      "2.87%",
+      "3.28%",
+      "3.12%",
+      "3.55%"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-08H",
+    "stem": "The weir is a 90-degree V-notch.",
+    "choices": [
+      "1.27%",
+      "1.54%",
+      "1.68%",
+      "1.74%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-09H",
+    "stem": "Situation – Dry soil is mixed with 18% by weight with water and then compacted. The moist soil has a volume of 1 × 10^-3 m^3 and a mass of 1.6 kg. The soil solids have specific gravity of 2.72. What is the dry unit weight of the soil?",
+    "choices": [
+      "13.3",
+      "13.8",
+      "14.5",
+      "15.6"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-09H",
+    "stem": "What is the void ratio of the soil?",
+    "choices": [
+      "95.45%",
+      "92.24%",
+      "100.67%",
+      "103.54%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-09H",
+    "stem": "What is the degree of saturation of the soil?",
+    "choices": [
+      "46.63%",
+      "32.87%",
+      "48.64%",
+      "52.47%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-10H",
+    "stem": "Situation – Given the following properties of a soil: Porosity, n = 42.1%, Specific gravity of soil solids, G = 2.71. Calculate the nearest value to the void ratio of the soil.",
+    "choices": [
+      "78.54%",
+      "70.41%",
+      "75.63%",
+      "72.71%"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-10H",
+    "stem": "Calculate the nearest value to the saturated unit weight of the soil?",
+    "choices": [
+      "18.65 kN/m^3",
+      "17.54 kN/m^3",
+      "19.52 kN/m^3",
+      "20.12 kN/m^3"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-10H",
+    "stem": "Calculate the nearest value to the effective unit weight of the soil?",
+    "choices": [
+      "8.84 kN/m^3",
+      "7.73 kN/m^3",
+      "10.31 kN/m^3",
+      "9.71 kN/m^3"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-11H",
+    "stem": "Situation – The results of field unit weight determination of a soil sample using the sand cone method is as follows: Volume of soil = 0.001338 m^3, Mass of soil = 2300 grams, Dry mass of soil = 1910 grams. In a laboratory, this soil yields a dry density of 1.495 g/cc at optimum moisture content of 20.8%. Specification requires that the compacted unit weight of the soil to be at least 95% ± 2% of the maximum laboratory value. What is the field unit weight of soil in kN/m^3?",
+    "choices": [
+      "17.23",
+      "18.25",
+      "16.24",
+      "16.86"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-11H",
+    "stem": "What is the in situ water content of soil?",
+    "choices": [
+      "20.86%",
+      "19.57%",
+      "20.42%",
+      "21.58%"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-11H",
+    "stem": "What is the relative compaction of the soil, and did it comply with the specification?",
+    "choices": [
+      "95.49%, yes",
+      "92.36%, no",
+      "96.32%, yes",
+      "97.54%, no"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-12H",
+    "stem": "Situation – Given the following properties of a soil: Liquid limit = 45%, Plastic limit = 22%, Natural moisture content = 40%. Determine the plasticity index.",
+    "choices": [
+      "25",
+      "20",
+      "28",
+      "23"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-12H",
+    "stem": "The liquidity index.",
+    "choices": [
+      "-0.563",
+      "1.254",
+      "0.856",
+      "0.783"
+    ],
+    "correct_answer": "D",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-12H",
+    "stem": "Which of the following gives the characteristic of the soil based on liquidity index?",
+    "choices": [
+      "Semisolid state",
+      "Plastic state",
+      "Liquid state",
+      "Solid state"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-13H",
+    "stem": "Situation – The liquid and plastic limits of clay are 72% and 38%, respectively. Which of the following represents these percentages?",
+    "choices": [
+      "relative density",
+      "porosity",
+      "moisture content",
+      "degree of saturation"
+    ],
+    "correct_answer": "C",
+    "difficulty": 1,
+    "term": "True",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-13H",
+    "stem": "What is the plasticity index of this clay?",
+    "choices": [
+      "34%",
+      "33%",
+      "36%",
+      "35%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-13H",
+    "stem": "If the moisture content of this clay is 15%, what is its liquidity index?",
+    "choices": [
+      "-0.832",
+      "-0.676",
+      "-0.754",
+      "-0.572"
+    ],
+    "correct_answer": "B",
+    "difficulty": 1,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-14H",
+    "stem": "Situation – Given the laboratory results of the Atterberg Limits Test in Figure 004. Plot the water content versus the number of blows. Determine the nearest value to the Liquid Limit of the soil.",
+    "choices": [
+      "45.5%",
+      "45.3%",
+      "45.6%",
+      "45.2%"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-14H",
+    "stem": "Determine the nearest value to the Plastic Limit of the soil.",
+    "choices": [
+      "22.1%",
+      "21.7%",
+      "23.6%",
+      "22.8%"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-14H",
+    "stem": "Determine the nearest value to the Liquidity Index of the soil.",
+    "choices": [
+      "0.86",
+      "1.24",
+      "0.95",
+      "1.12"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-15H",
+    "stem": "Situation – A 12-meter thick submerged clay has moisture content of 45%. Using G = 2.73, determine the following: The nearest value to the saturated unit weight of clay in kN/m^3.",
+    "choices": [
+      "17.43",
+      "15.26",
+      "16.85",
+      "18.24"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-15H",
+    "stem": "The nearest value to the total stress at the bottom of the layer, in kPa.",
+    "choices": [
+      "209.1",
+      "212.5",
+      "223.9",
+      "205.4"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-15H",
+    "stem": "The nearest value to the effective stress at the bottom of the layer, in kPa.",
+    "choices": [
+      "96.3",
+      "91.4",
+      "97.1",
+      "90.7"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-16H",
+    "stem": "Situation – The water table in soil deposit is 2 m below the ground surface. The soil above the water table has dry unit weight of 14.85 kN/m^3. The saturated unit weight of the soil is 20.58 kN/m^3. Determine the following: The total vertical stress at a point 4.8 m below the ground.",
+    "choices": [
+      "87.32 kPa",
+      "88.63 kPa",
+      "89.68 kPa",
+      "90.45 kPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-16H",
+    "stem": "The total pore water pressure at a point 4.8 m below the ground.",
+    "choices": [
+      "27.47 kPa",
+      "26.54 kPa",
+      "28.58 kPa",
+      "27.96 kPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-16H",
+    "stem": "The effective vertical stress at a point 4.8 m below the ground.",
+    "choices": [
+      "62.09 kPa",
+      "59.86 kPa",
+      "61.10 kPa",
+      "62.49 kPa"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-17H",
+    "stem": "Situation – The apparatus shown in Figure 21-25(01)-S02 maintains a constant head of 160 mm. The soil sample has a hydraulic conductivity of 5 × 10^-3 cm/sec with moisture content of 19.5%. Use G = 2.7. Calculate the seepage velocity in mm/sec.",
+    "choices": [
+      "0.245",
+      "0.105",
+      "0.187",
+      "0.269"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-17H",
+    "stem": "Calculate the flow of water in cm^3/sec.",
+    "choices": [
+      "0.524",
+      "0.286",
+      "0.321",
+      "0.175"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-17H",
+    "stem": "Calculate the time required for the red dye to pass through the soil assuming that there is no diffusion, or the red dye does not scatter as it passes through the soil.",
+    "choices": [
+      "32.6 min",
+      "30.7 min",
+      "38.5 min",
+      "34.8 min"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-18H",
+    "stem": "Situation – A confined aquifer is shown in the Figure. This aquifer has a source of recharge located as shown. The hydraulic conductivity of the aquifer is 40 m/day with a porosity of 25%. The piezometric (head) surface in two observation wells 1350 m apart are at elevation 65 m and 60 m, respectively from the common datum. The aquifer has an average thickness of 25 m and an average width of 4 km. Determine the nearest value to the rate of flow of water through the aquifer, in cubic meters per day.",
+    "choices": [
+      "13,785",
+      "14,225",
+      "15,354",
+      "14,815"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-18H",
+    "stem": "Determine the nearest value to the seepage velocity in m/day.",
+    "choices": [
+      "0.593",
+      "0.635",
+      "0.524",
+      "0.725"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-18H",
+    "stem": "Determine the nearest value to the time of travel from the head of aquifer to a point 4 km downstream, in days.",
+    "choices": [
+      "6250",
+      "6750",
+      "6550",
+      "6950"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-19H",
+    "stem": "Situation – A test is set-up as shown in SM-23. A cylindrical mold 4\" in diameter is filled with silt to height H1 = 0.2 ft, whose coefficient of permeability k1 = 4.2 × 10^-3 ft/min. A second coaxial mold is placed on top of the first mold whose inside diameter is d = 1.5\" and whose height is H2 = 0.30 ft. Its thickness is negligible. The inside of this second mold is filled with the same silt, but the annular ring outside the small tube and outer tube is filled with sand whose coefficient of permeability is k2 = 7.8 × 10^-4 ft/min. The test set-up is a permeameter of constant head. Water is placed in the mold and maintained at a level h = 1.25 ft above the level of the outlet. It may be considered that the system consists of a fictitious soil of thickness H = H1 + H2 and coefficient of permeability kr. What is the total flow of water in ft^3/min?",
+    "choices": [
+      "3.914 × 10^-4",
+      "4.905 × 10^-4",
+      "3.878 × 10^-4",
+      "3.457 × 10^-4"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-19H",
+    "stem": "What is the equivalent coefficient of permeability, kr, in ft/min?",
+    "choices": [
+      "1.778 × 10^-3",
+      "1.794 × 10^-3",
+      "2.248 × 10^-3",
+      "1.585 × 10^-5"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-19H",
+    "stem": "What is the total amount of water that percolated after 30 minutes?",
+    "choices": [
+      "333 cc",
+      "294 cc",
+      "329 cc",
+      "417 cc"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-20H",
+    "stem": "Situation – A confined aquifer underlies an unconfined aquifer as shown in the figure. Given the following: D1 = 65 m, D2 = 45 m, H1 = 35 m, H2 = 40 m, K1 = 55 m/day, K2 = 30 m/day, L = 2.2 km. Calculate the equivalent coefficient of permeability in horizontal direction.",
+    "choices": [
+      "45.86 m/day",
+      "41.67 m/day",
+      "38.25 m/day",
+      "56.32 m/day"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-20H",
+    "stem": "Calculate the hydraulic gradient.",
+    "choices": [
+      "0.0086",
+      "0.0098",
+      "0.0091",
+      "0.0075"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-20H",
+    "stem": "Calculate the flow of water from one stream to another per meter width.",
+    "choices": [
+      "21.87 m^3/day",
+      "19.25 m^3/day",
+      "22.58 m^3/day",
+      "20.83 m^3/day"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-21H",
+    "stem": "Situation – A confined aquifer underlies an unconfined aquifer as shown in the figure. Given the following: D1 = 55 m, D2 = 42 m, H1 = 45 m, H2 = 30 m, K1 = 45 m/day, K2 = 20 m/day, L = 2.1 km. Calculate the equivalent coefficient of permeability in horizontal direction.",
+    "choices": [
+      "37 m/day",
+      "34 m/day",
+      "36 m/day",
+      "35 m/day"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-21H",
+    "stem": "Calculate the hydraulic gradient.",
+    "choices": [
+      "0.0062",
+      "0.0069",
+      "0.0085",
+      "0.0078"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-21H",
+    "stem": "Calculate the flow of water from one stream to another per meter width.",
+    "choices": [
+      "9.45 m^3/day",
+      "12.69 m^3/day",
+      "10.51 m^3/day",
+      "11.25 m^3/day"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-22H",
+    "stem": "Situation – The square footing shown in the Figure carries a load of 3500 kN. Assume that the stress below the footing is distributed at a slope of 1H:2V. The clay layer is overconsolidated with OCR = 2. Determine the preconsolidation pressure at the midheight of the clay layer.",
+    "choices": [
+      "76.32 kPa",
+      "71.12 kPa",
+      "65.47 kPa",
+      "85.42 kPa"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-22H",
+    "stem": "Determine the increase in pressure at the midheight of the clay layer.",
+    "choices": [
+      "140 kPa",
+      "110 kPa",
+      "130 kPa",
+      "120 kPa"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-22H",
+    "stem": "Determine the settlement of the overconsolidated clay layer.",
+    "choices": [
+      "73.6 mm",
+      "78.5 mm",
+      "80.4 mm",
+      "65.4 mm"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-23H",
+    "stem": "Situation – A group of friction piles is shown in Figure 28.87 SM-57. The total load on the pile less the soil displaced by the footing is 1800 kN. L1 = 1.5 m, L2 = 2 m, L = 10 m, t = 16 m. Compute for the overburden pressure, that is the effective pressure at the midheight of the consolidating clay layer, in kPa.",
+    "choices": [
+      "142.6",
+      "156.4",
+      "148.7",
+      "163.2"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-23H",
+    "stem": "Compute for the compression index of the clay.",
+    "choices": [
+      "0.224",
+      "0.364",
+      "0.288",
+      "0.325"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-23H",
+    "stem": "What is the approximate settlement of the foundation?",
+    "choices": [
+      "112 mm",
+      "204 mm",
+      "145 mm",
+      "187 mm"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-24H",
+    "stem": "Situation – A triaxial test conducted on a cohesionless soil gives the following results: Deviator stress at failure = 410 kPa, Angle of shearing resistance = 32°. Determine the confining pressure in kPa.",
+    "choices": [
+      "174.87",
+      "196.32",
+      "165.32",
+      "181.85"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-24H",
+    "stem": "The shear stress at failure plane in kPa.",
+    "choices": [
+      "165.85",
+      "181.04",
+      "152.48",
+      "173.85"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-24H",
+    "stem": "The angle that the failure plane makes with the principal plane.",
+    "choices": [
+      "61°",
+      "60°",
+      "62°",
+      "63°"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-25H",
+    "stem": "Situation – A consolidated drained triaxial test is conducted on a normally consolidated soil with chamber confining pressure of 152 kPa. If the deviator stress at failure is 250 kPa, determine the angle of friction of the soil.",
+    "choices": [
+      "25.23°",
+      "26.83°",
+      "27.58°",
+      "28.96°"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-25H",
+    "stem": "Calculate the shear stress at failure plane.",
+    "choices": [
+      "124.52 kPa",
+      "108.45 kPa",
+      "116.89 kPa",
+      "111.55 kPa"
+    ],
+    "correct_answer": "D",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-25H",
+    "stem": "Calculate the normal stress at failure plane.",
+    "choices": [
+      "220.6 kPa",
+      "225.7 kPa",
+      "232.7 kPa",
+      "210.4 kPa"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-26H",
+    "stem": "Situation – In a triaxial test on a normally consolidated soil, the confining pressure is 320 kPa and the angle of friction is 35°. Determine the maximum axial stress that cause failure.",
+    "choices": [
+      "1024.7 kPa",
+      "1285.7 kPa",
+      "1180.9 kPa",
+      "1365.4 kPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-26H",
+    "stem": "Determine the shear stress at failure plane.",
+    "choices": [
+      "385.7 kPa",
+      "352.6 kPa",
+      "312.6 kPa",
+      "324.9 kPa"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-26H",
+    "stem": "Determine the deviator stress.",
+    "choices": [
+      "920.47 kPa",
+      "820.56 kPa",
+      "860.86 kPa",
+      "960.42 kPa"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-27H",
+    "stem": "Situation – A retaining wall 7 m high supports a cohesionless soil having a dry density of 1620 kg/m^3, angle of shearing resistance is 33 degrees and void ratio of 0.68. The surface of the soil is horizontal and level with the top of the wall. Neglect wall friction and use Rankine's formula for active pressure of a cohesionless soil. Determine the nearest value to the total earth thrust on the wall in kN per lineal meter if the soil is dry.",
+    "choices": [
+      "136.21",
+      "104.14",
+      "114.74",
+      "124.54"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-27H",
+    "stem": "Determine the nearest value to the thrust on the wall in kN per lineal meter if owing to inadequate drainage, it is waterlogged to a level 3 m below the surface.",
+    "choices": [
+      "165.2",
+      "157.7",
+      "189.7",
+      "179.5"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-27H",
+    "stem": "Determine the nearest value to the height above the base of the wall where the thrust acts during the waterlogged condition.",
+    "choices": [
+      "1.97 m",
+      "2.12 m",
+      "1.75 m",
+      "2.36 m"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-28H",
+    "stem": "Situation – A retaining wall 8 m high supports a cohesionless soil having a dry density of 1600 kg/m^3, angle of shearing resistance is 32 degrees and void ratio of 0.68. The surface of the soil is horizontal and level with the top of the wall. Neglect wall friction and use Rankine's formula for active pressure of a cohesionless soil. Determine the nearest value to the total earth thrust on the wall in kN per lineal meter if the soil is dry.",
+    "choices": [
+      "185.4",
+      "154.3",
+      "165.2",
+      "174.8"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-28H",
+    "stem": "Determine the nearest value to the thrust on the wall in kN per lineal meter if owing to inadequate drainage, it is waterlogged to a level 3.5 m below the surface.",
+    "choices": [
+      "214.2",
+      "297.4",
+      "258.7",
+      "235.5"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-28H",
+    "stem": "Determine the nearest value to the height above the base of the wall where the thrust acts during the waterlogged condition.",
+    "choices": [
+      "1.98 m",
+      "2.45 m",
+      "2.26 m",
+      "2.58 m"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-29H",
+    "stem": "Situation – A sheet pile 10.5 m in length is to retain a 7.2 m deep of soil with friction angle of 32 degrees and unit weight of 19.2 kN/m^3. It is anchored to a depth of 1.2 m below the top of the pile. The anchors are spaced 3 m. Find the total active force on the wall per meter width.",
+    "choices": [
+      "336.4 kN",
+      "325.2 kN",
+      "421.7 kN",
+      "289.6 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-29H",
+    "stem": "What percentage of the total passive resistance is mobilized?",
+    "choices": [
+      "67.6%",
+      "76.4%",
+      "62.4%",
+      "86.3%"
+    ],
+    "correct_answer": "A",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-29H",
+    "stem": "Determine the tension in the anchor.",
+    "choices": [
+      "315.2 kN",
+      "285.5 kN",
+      "254.7 kN",
+      "334.9 kN"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-30H",
+    "stem": "Situation – A prestressed concrete pile, 360 mm x 360 mm in cross-section, is to be driven in a clayey soil (gamma = 18.5 kN/m^3) as shown in Figure 56-13(02)-S22. The pile has a design capacity of 390 kN. Use factor of safety of 2. The unconfined compression shear strength, qu, of the soil is 110 kPa. Use Nc = 9. What is the end bearing capacity of pile in kN.",
+    "choices": [
+      "52.47",
+      "70.18",
+      "64.15",
+      "69.85"
+    ],
+    "correct_answer": "C",
+    "difficulty": 3,
+    "term": "False",
+    "figure": null
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-30H",
+    "stem": "Compute the skin friction in kN expected to develop along the shaft of the pile.",
+    "choices": [
+      "687.5",
+      "821.4",
+      "756.8",
+      "715.8"
+    ],
+    "correct_answer": "D",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-30H",
+    "stem": "Compute the length of the pile if frictional constant alpha = 0.75.",
+    "choices": [
+      "11 m",
+      "12 m",
+      "10 m",
+      "9 m"
+    ],
+    "correct_answer": "B",
+    "difficulty": 3,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-31H",
+    "stem": "Situation – A cut slope was excavated in saturated clay as shown in Figure SM-456. The slope made an angle of 60 degrees with the horizontal. When slope failure occurs, distance BC is 8 m. Given: Stability number, m = 0.185, gamma = 17.5 kN/m^3, cu = 22 kPa. What is the stability factor?",
+    "choices": [
+      "5.41",
+      "5.86",
+      "6.12",
+      "4.21"
+    ],
+    "correct_answer": "A",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-31H",
+    "stem": "Determine the critical depth of cut in meters.",
+    "choices": [
+      "7.2",
+      "6.8",
+      "6.4",
+      "7.6"
+    ],
+    "correct_answer": "B",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
+  },
+  {
+    "section": "HPGE",
+    "group_id": "M13-31H",
+    "stem": "What is the angle of failure plane in degrees?",
+    "choices": [
+      "31.58",
+      "28.47",
+      "29.68",
+      "30.25"
+    ],
+    "correct_answer": "C",
+    "difficulty": 2,
+    "term": "False",
+    "figure": "fig"
   }
 ]
